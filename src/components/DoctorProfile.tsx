@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface DoctorProfileProps {
   onBookAppointment: () => void;
 }
@@ -14,7 +16,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
             Meet Our Expert Implantologist
           </h2>
           <p className="text-emerald-600 md:text-lg">
-            Transforming Smiles with Precision & Care
+            Transforming Smiles with Precision &amp; Care
           </p>
         </div>
 
@@ -24,11 +26,13 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
             <div className="text-center mb-8 md:mb-0 md:flex-shrink-0 md:w-1/3">
               <div className="relative">
                 <div className="w-56 h-56 md:w-72 md:h-72 bg-gradient-to-br from-emerald-100 to-purple-100 rounded-2xl mx-auto mb-6 p-2">
-                  <div className="w-full h-full overflow-hidden rounded-xl">
-                    <img 
+                  <div className="w-full h-full overflow-hidden rounded-xl relative">
+                    <Image 
                       src="/images/doctor.png" 
                       alt="Dr. Apurva Chaudhari" 
-                      className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
+                      fill
+                      className="object-cover transform hover:scale-105 transition-transform duration-300"
+                      sizes="(max-width: 768px) 224px, 288px"
                     />
                   </div>
                 </div>
@@ -37,7 +41,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                 </div>
               </div>
               <div className="mt-8">
-                <p className="text-purple-600 font-semibold text-lg mb-2">Founder & Chief Implantologist</p>
+                <p className="text-purple-600 font-semibold text-lg mb-2">Founder &amp; Chief Implantologist</p>
                 <div className="flex justify-center gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-emerald-600">8+</div>
@@ -60,14 +64,14 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <div className="prose max-w-none">
                 <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                   <p className="text-lg">
-                    Dr. Apurva Chaudhari leads Lotus Dental Care & Implant Centre with a vision to provide 
+                    Dr. Apurva Chaudhari leads Lotus Dental Care &amp; Implant Centre with a vision to provide 
                     world-class dental care in Kalyan. Her 8+ years of specialized experience in implantology 
                     and orthodontics has helped countless patients achieve their dream smiles.
                   </p>
                   
                   <p className="text-lg">
                     Renowned for her gentle approach and commitment to painless dentistry, Dr. Apurva has 
-                    established one of Kalyan's most trusted dental practices. Her focus on patient comfort 
+                    established one of Kalyan&apos;s most trusted dental practices. Her focus on patient comfort 
                     and use of advanced technology ensures optimal results with minimal discomfort.
                   </p>
                 </div>
