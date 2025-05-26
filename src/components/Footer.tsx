@@ -1,13 +1,18 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-white p-4 md:p-8 lg:p-12">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-6 md:mb-12">
-          <img 
-            src="/images/logo.png" 
-            alt="Lotus Dental Care & Implant Centre Logo" 
-            className="w-32 md:w-48 h-auto mx-auto mb-4"
-          />
+          <div className="relative w-32 md:w-48 h-12 md:h-16 mx-auto mb-4">
+            <Image 
+              src="/images/logo.png" 
+              alt="Lotus Dental Care &amp; Implant Centre Logo" 
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
@@ -45,7 +50,7 @@ export default function Footer() {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Lotus Dental Care & Implant Centre Location"
+            title="Lotus Dental Care &amp; Implant Centre Location"
           ></iframe>
         </div>
       </div>

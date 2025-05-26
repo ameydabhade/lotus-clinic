@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ImplantTypes() {
   const implantData = [
     {
@@ -35,7 +37,7 @@ export default function ImplantTypes() {
     {
       title: "All-on-4 / All-on-6",
       image: "/images/implant/all_in.png",
-      description: "All-on-4 & All-on-6 Dental Implants provide extra stability and support:",
+      description: "All-on-4 &amp; All-on-6 Dental Implants provide extra stability and support:",
       benefits: [
         "Resistant to wear and stains",
         "A permanent solution that does not need removal", 
@@ -52,15 +54,21 @@ export default function ImplantTypes() {
           When it comes to Dental Implants, choose <em>Lotus Dental Care</em>
         </h2>
         <p className="text-center text-emerald-100 mb-8 md:text-lg max-w-3xl mx-auto">
-          At Lotus Dental Care & Implant Centre, we specialize in providing all types of dental implants 
+          At Lotus Dental Care &amp; Implant Centre, we specialize in providing all types of dental implants 
           to help you achieve a beautiful and functional smile using the latest procedures and technology.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {implantData.map((implant, index) => (
             <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
-              <div className="bg-gray-200 rounded-lg mb-4 h-48 md:h-64 flex items-center justify-center overflow-hidden">
-                <img src={implant.image} alt={implant.title} className="h-full w-full object-cover" />
+              <div className="bg-gray-200 rounded-lg mb-4 h-48 md:h-64 relative overflow-hidden">
+                <Image 
+                  src={implant.image} 
+                  alt={implant.title} 
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
               </div>
               <h3 className="font-bold text-center mb-3 md:text-lg">{implant.title}</h3>
               <p className="text-center mb-3 text-sm md:text-base">{implant.description}</p>
