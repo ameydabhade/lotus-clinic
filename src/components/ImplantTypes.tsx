@@ -1,0 +1,81 @@
+export default function ImplantTypes() {
+  const implantData = [
+    {
+      title: "Single Implants",
+      image: "/images/implant/single.png",
+      description: "A Single dental implant crown is your ideal solution. It will:",
+      benefits: [
+        "Look and function just like a natural tooth",
+        "Restore your natural chewing ability", 
+        "Preserve the underlying bone",
+        "Save your money in the long run"
+      ]
+    },
+    {
+      title: "Multiple Implants", 
+      image: "/images/implant/Multiple.png",
+      description: "A Multi-implant bridge. It is ideal for filling medium-sized gaps in your smile.",
+      benefits: [
+        "Exceptional Strength",
+        "A Permanent solution",
+        "Bone Preservation", 
+        "A life long replacement for your natural teeth"
+      ]
+    },
+    {
+      title: "Implant-Supported Dentures",
+      image: "/images/implant/supported.png", 
+      description: "offer a stable alternative to regular dentures.",
+      benefits: [
+        "Snap into place over 2-4 implants",
+        "Help prevent bone loss",
+        "Vastly improve your chewing and confidence"
+      ]
+    },
+    {
+      title: "All-on-4 / All-on-6",
+      image: "/images/implant/all_in.png",
+      description: "All-on-4 & All-on-6 Dental Implants provide extra stability and support:",
+      benefits: [
+        "Resistant to wear and stains",
+        "A permanent solution that does not need removal", 
+        "Custom-designed to attach securely to 4-6 implants per arch",
+        "It looks natural and strong enough to eat hard food"
+      ]
+    }
+  ];
+
+  return (
+    <section className="bg-emerald-600 text-white p-4 md:p-8 lg:p-12 pb-16">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-purple-300 mb-4">
+          When it comes to Dental Implants, choose <em>Lotus Dental Care</em>
+        </h2>
+        <p className="text-center text-emerald-100 mb-8 md:text-lg max-w-3xl mx-auto">
+          At Lotus Dental Care & Implant Centre, we specialize in providing all types of dental implants 
+          to help you achieve a beautiful and functional smile using the latest procedures and technology.
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {implantData.map((implant, index) => (
+            <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
+              <div className="bg-gray-200 rounded-lg mb-4 h-48 md:h-64 flex items-center justify-center overflow-hidden">
+                <img src={implant.image} alt={implant.title} className="h-full w-full object-cover" />
+              </div>
+              <h3 className="font-bold text-center mb-3 md:text-lg">{implant.title}</h3>
+              <p className="text-center mb-3 text-sm md:text-base">{implant.description}</p>
+              <ul className="space-y-1">
+                {implant.benefits.map((benefit, i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <span className="text-emerald-500">✓</span>
+                    <span className="text-sm md:text-base">{benefit}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
