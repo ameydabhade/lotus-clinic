@@ -48,7 +48,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <ul className="text-left mb-4 space-y-2">
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Free Consultation Worth ₹500</span>
+                <span className="text-sm">Free Consultation Worth ₹1500</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
