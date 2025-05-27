@@ -61,7 +61,7 @@ export default function ImplantTypes() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {implantData.map((implant, index) => (
             <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
-              <div className="bg-gray-200 rounded-lg mb-4 relative aspect-[4/3] w-full">
+              <div className="bg-emerald-50/80 rounded-lg mb-4 relative aspect-[4/3] w-full">
                 <Image 
                   src={implant.image} 
                   alt={implant.title} 
