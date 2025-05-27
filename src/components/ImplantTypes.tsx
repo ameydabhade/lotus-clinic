@@ -61,12 +61,12 @@ export default function ImplantTypes() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {implantData.map((implant, index) => (
             <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
-              <div className="bg-gray-200 rounded-lg mb-4 h-48 md:h-64 relative overflow-hidden">
+              <div className="bg-gray-200 rounded-lg mb-4 relative aspect-[4/3] w-full">
                 <Image 
                   src={implant.image} 
                   alt={implant.title} 
                   fill
-                  className="object-cover"
+                  className="object-contain p-2"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
               </div>
