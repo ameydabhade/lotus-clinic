@@ -21,9 +21,9 @@ export default function CTABox({ onBookAppointment }: CTABoxProps) {
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
             <div className="text-3xl md:text-5xl font-bold text-yellow-300 mb-2">
-              ₹25,000*
+              Limited Time Offer
             </div>
-            <p className="text-yellow-100 text-lg">Starting Price for Premium Implants</p>
+            <p className="text-yellow-100 text-lg">Premium Dental Implants</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-4 mb-8">
@@ -46,7 +46,7 @@ export default function CTABox({ onBookAppointment }: CTABoxProps) {
                 </li>
               </ul>
               <div className="mt-2 text-yellow-300 font-bold">
-                Worth ₹1,500 - Now FREE!
+                Book Your Free Consultation Today!
               </div>
             </div>
 

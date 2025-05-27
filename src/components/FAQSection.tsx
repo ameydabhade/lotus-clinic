@@ -13,7 +13,7 @@ export default function FAQSection() {
     },
     {
       question: "What types of dental implants do you offer and how much do they cost?",
-      answer: "We offer single tooth implants, multiple teeth implants, and full mouth rehabilitation options. Our implants start from ₹25,000, with flexible EMI options available. We use premium quality implant materials from trusted international brands, ensuring long-lasting results."
+      answer: "We offer single tooth implants, multiple teeth implants, and full mouth rehabilitation options. Our implants are available at competitive prices with flexible EMI options available. We use premium quality implant materials from trusted international brands, ensuring long-lasting results."
     },
     {
       question: "How long does it take to get braces or clear aligners?",

@@ -40,15 +40,15 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             
             <div className="bg-emerald-800 bg-opacity-50 p-4 rounded-lg mb-4">
               <div className="text-yellow-300 text-4xl md:text-5xl font-bold mb-1">
-                ₹25,000*
+                Special Offer
               </div>
-              <p className="text-yellow-100 text-sm">Starting Price for Premium Treatments</p>
+              <p className="text-yellow-100 text-sm">Premium Treatments at Best Prices</p>
             </div>
 
             <ul className="text-left mb-4 space-y-2">
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Free Consultation Worth ₹1500</span>
+                <span className="text-sm">Free Initial Consultation</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
