@@ -39,8 +39,6 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="p-4">
-              <h3 className="font-semibold text-lg mb-2">{testimonial.title}</h3>
-              <p className="text-sm text-gray-600 mb-4">{testimonial.description}</p>
               <div className="relative h-64 w-full">
                 <Image
                   src={testimonial.image}
