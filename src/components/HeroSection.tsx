@@ -13,7 +13,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
-        <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg">
+        <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden ">
           <Image 
             src="/images/hero.png" 
             alt="Dental Care Showcase" 
@@ -48,7 +48,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <ul className="text-left mb-4 space-y-2">
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Free Initial Consultation</span>
+                <span className="text-sm">Free Consultation + Digital Scan</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
@@ -73,7 +73,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
       <div className="flex flex-col gap-3 mb-8 md:flex-row md:justify-center">
         <button onClick={onBookAppointment} className="bg-purple-500 text-white py-4 px-8 rounded-lg font-bold text-lg hover:bg-purple-600 transition-colors md:min-w-[240px]">
-          📞 Book FREE Consultation
+          📞 Book Free Consultation + Digital Scan
         </button>
         <a 
           href="tel:+917020210426" 
@@ -193,8 +193,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <span className="group-hover:translate-x-1 transition-transform">➤</span>
           </button>
           <div className="mt-3 space-y-1">
-            <p className="text-emerald-600 font-bold">Book Now & Get Free Consultation</p>
-            <p className="text-sm text-gray-500">Worth ₹1,500 - Limited Time Offer</p>
+            <p className="text-emerald-600 font-bold">Book Now & Get Free Consultation + Digital Scan</p>
+            <p className="text-sm text-gray-500">Limited Time Offer</p>
           </div>
         </div>
       </div>

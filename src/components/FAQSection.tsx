@@ -9,7 +9,7 @@ export default function FAQSection() {
   const faqs = [
     {
       question: "What makes Lotus Dental Care different from other clinics?",
-      answer: "At Lotus Dental Care, we combine advanced technology with personalized care. Our clinic features state-of-the-art equipment, a highly sterilized environment, and a team led by Dr. Apurva Chaudhari who specializes in implantology and orthodontics. We're also one of the few clinics in Kalyan offering digital smile design and painless treatments."
+      answer: "At Lotus Dental Care, we combine advanced technology with personalized care. Our clinic features state-of-the-art equipment, a highly sterilized environment, and a team led by Dr. Apurva Chaudhari who specializes in implantology and orthodontics. We're also one of the few clinics in Kalyan offering digital smile design, painless treatments, and complimentary consultation with digital scan worth 1500."
     },
     {
       question: "What types of dental implants do you offer and how much do they cost?",

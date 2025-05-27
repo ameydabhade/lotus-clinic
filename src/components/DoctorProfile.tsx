@@ -135,7 +135,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="mt-3 text-emerald-600 font-medium">
-              Get a Complimentary Consultation Worth ₹1,500
+              Get a Free Consultation + Digital Scan
             </p>
           </div>
         </div>

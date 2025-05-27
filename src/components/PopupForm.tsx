@@ -54,7 +54,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
           {/* Offer Cards */}
           <div className="grid md:grid-cols-2 gap-4 mb-6">
             <div className="bg-purple-50 border-l-4 border-purple-400 p-4 rounded-lg">
-              <h3 className="font-bold text-purple-800 mb-1">Free Consultation</h3>
+              <h3 className="font-bold text-purple-800 mb-1">Free Consultation + Digital Scan</h3>
               <p className="text-sm text-purple-600">
                 Worth <span className="font-bold text-lg">₹1,500</span>
               </p>

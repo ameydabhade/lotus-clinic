@@ -65,7 +65,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-emerald-600 font-medium">
-            Free Consultation Worth ₹1,500
+            Free Consultation + Digital Scan
           </p>
         </div>
 
