@@ -1,14 +1,57 @@
-# Dr. Rudagi's Dental Website - Complete Project Structure Documentation
+# Lotus Dental Care - Complete Project Structure Documentation
 
 ## Project Overview
-Mobile-first, conversion-optimized dental website built with Next.js 15.1.8, focusing on dental implants and comprehensive dental services.
 
-**Tech Stack:**
-- Next.js 15.1.8 (App Router)
-- TypeScript
-- Tailwind CSS
-- Lucide React (Icons)
-- Google Fonts (Inter)
+A comprehensive website for Lotus Dental Care & Implant Centre, showcasing dental services and facilitating patient engagement.
+
+## Technical Details
+
+```json
+{
+  "name": "lotus-dental",
+  "version": "1.0.0",
+  "private": true
+}
+```
+
+## SEO Configuration
+
+```javascript
+// next-seo.config.js
+{
+  title: "Lotus Dental Care & Implant Centre | Dental Implants Kalyan",
+  description: "Expert dental implants in Kalyan West. Dr. Apurva Chaudhari - 8+ years experience, painless procedures, advanced technology. Book free consultation!",
+  openGraph: {
+    title: "Lotus Dental Care & Implant Centre",
+    type: "website",
+    url: "https://lotusdental.com",
+    siteName: "Lotus Dental Care",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Lotus Dental Care & Implant Centre"
+      }
+    ]
+  }
+}
+```
+
+## Site Configuration
+
+```typescript
+// site.config.ts
+{
+  name: "Lotus Dental Care & Implant Centre",
+  location: "Kalyan West",
+  doctor: "Dr. Apurva Chaudhari",
+  phone: "+91 70202 10426",
+  email: "info@lotusdental.com",
+  address: "Kalyan West, Mumbai"
+}
+```
 
 ## Directory Structure
 

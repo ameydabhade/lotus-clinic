@@ -59,12 +59,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                 Worth <span className="font-bold text-lg">₹1,500</span>
               </p>
             </div>
-            <div className="bg-emerald-50 border-l-4 border-emerald-400 p-4 rounded-lg">
-              <h3 className="font-bold text-emerald-800 mb-1">Special Discount</h3>
-              <p className="text-sm text-emerald-600">
-                Up to <span className="font-bold text-lg">20% OFF</span>
-              </p>
-            </div>
+ 
           </div>
 
           {/* Form */}
