@@ -5,42 +5,50 @@ interface TransformingSmilesProps {
 }
 
 export default function TransformingSmiles({ onBookAppointment }: TransformingSmilesProps) {
+  const testimonials = [
+    {
+      id: 1,
+      title: "Smile Design Transformation",
+      description: "Complete smile makeover with advanced dental aesthetics",
+      image: "/images/results/1.png"
+    },
+    {
+      id: 2,
+      title: "Professional Smile Makeover",
+      description: "Comprehensive smile transformation by Dr. Apurva Chaudhari",
+      image: "/images/results/2.png"
+    },
+    {
+      id: 3,
+      title: "Full Mouth Rehabilitation",
+      description: "Complete dental restoration with implants and prosthetics",
+      image: "/images/results/3.png"
+    }
+  ];
+
   return (
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h2 className="text-xl md:text-3xl font-bold text-center mb-2">
         <u>Transforming Smiles</u>
       </h2>
       <p className="text-center text-emerald-600 font-bold mb-6 md:text-lg">
-        Witness the before and after the magic of our Painless Dental Implants!
+        Real results from our satisfied patients
       </p>
 
-      <div className="grid md:grid-cols-2 gap-6">
-        {[1, 2, 3, 4].map((i) => (
-          <div key={i} className="bg-gray-200 rounded-lg p-4">
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-col items-center sm-h-2">
-                <div className={`relative w-full ${i <= 2 ? 'h-40 md:h-48' : 'h-64'}`}>
-                  <Image 
-                    src={`/images/results/doubledf${i}before.png`} 
-                    alt={`Before Smile ${i}`} 
-                    fill
-                    className={`${i <= 2 ? 'object-contain' : 'object-cover'} rounded shadow`}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
-                <span className="text-sm mt-2 text-gray-600">Before</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className={`relative w-full ${i <= 2 ? 'h-40 md:h-48' : 'h-64'}`}>
-                  <Image 
-                    src={`/images/results/doubledf${i}after.png`} 
-                    alt={`After Smile ${i}`} 
-                    fill
-                    className={`${i <= 2 ? 'object-contain' : 'object-cover'} rounded shadow`}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
-                <span className="text-sm mt-2 text-gray-600">After</span>
+      <div className="grid md:grid-cols-3 gap-6 mb-8">
+        {testimonials.map((testimonial) => (
+          <div key={testimonial.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-2">{testimonial.title}</h3>
+              <p className="text-sm text-gray-600 mb-4">{testimonial.description}</p>
+              <div className="relative h-64 w-full">
+                <Image
+                  src={testimonial.image}
+                  alt={`${testimonial.title} - Before and After`}
+                  fill
+                  className="object-contain rounded"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
               </div>
             </div>
           </div>
@@ -48,8 +56,8 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
       </div>
 
       <p className="text-center my-6 md:text-lg max-w-3xl mx-auto">
-        Ready to witness the enchanting before-and-after journey?<br />
-        Explore the magic of your potential new smile today!
+        Ready to transform your smile?<br />
+        Book a consultation to discover your smile potential!
       </p>
 
       <div className="md:grid md:grid-cols-2 gap-6">
