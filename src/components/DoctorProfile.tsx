@@ -10,13 +10,13 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <span className="inline-block bg-emerald-100 text-emerald-600 px-6 py-2 rounded-full text-sm font-bold mb-4">
-            Your Smile Journey Begins Here
+            Expert Implantologist in Kalyan
           </span>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            Meet Our Expert Implantologist
+            Meet Your Dental Implant Specialist
           </h2>
           <p className="text-emerald-600 md:text-lg">
-            Transforming Smiles with Precision &amp; Care
+            Restoring Smiles with Advanced Implant Technology
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                   <div className="w-full h-full overflow-hidden rounded-xl relative">
                     <Image 
                       src="/images/doctor.png" 
-                      alt="Dr. Apurva Chaudhari" 
+                      alt="Dr. Apurva Chaudhari - Dental Implant Specialist" 
                       fill
                       className="object-cover transform hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 224px, 288px"
@@ -41,15 +41,15 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                 </div>
               </div>
               <div className="mt-8">
-                <p className="text-purple-600 font-semibold text-lg mb-2">Founder &amp; Chief Implantologist</p>
+                <p className="text-purple-600 font-semibold text-lg mb-2">Chief Implantologist</p>
                 <div className="flex justify-center gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-emerald-600">8+</div>
                     <div className="text-sm text-gray-600">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-emerald-600">1000+</div>
-                    <div className="text-sm text-gray-600">Happy Patients</div>
+                    <div className="text-2xl font-bold text-emerald-600">500+</div>
+                    <div className="text-sm text-gray-600">Implants Done</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-emerald-600">4.9★</div>
@@ -64,28 +64,28 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <div className="prose max-w-none">
                 <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                   <p className="text-lg">
-                    Dr. Apurva Chaudhari leads Lotus Dental Care &amp; Implant Centre with a vision to provide 
-                    world-class dental care in Kalyan. Her 8+ years of specialized experience in implantology 
-                    and orthodontics has helped countless patients achieve their dream smiles.
+                    Dr. Apurva Chaudhari leads Lotus Dental Care &amp; Implant Centre with a focus on advanced 
+                    implantology. His 8+ years of specialized experience in dental implants has helped hundreds 
+                    of patients regain their confident smile and natural chewing ability.
                   </p>
                   
                   <p className="text-lg">
-                    Renowned for her gentle approach and commitment to painless dentistry, Dr. Apurva has 
-                    established one of Kalyan&apos;s most trusted dental practices. Her focus on patient comfort 
-                    and use of advanced technology ensures optimal results with minimal discomfort.
+                    Renowned for his expertise in painless implant procedures, Dr. Apurva has 
+                    established one of Kalyan&apos;s most trusted implant practices. His commitment to using 
+                    cutting-edge implant technology ensures predictable, long-lasting results with minimal recovery time.
                   </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-xl p-6">
-                    <h3 className="text-xl font-bold text-emerald-800 mb-4">Specializations</h3>
+                    <h3 className="text-xl font-bold text-emerald-800 mb-4">Implant Services</h3>
                     <ul className="space-y-3">
                       {[
-                        "Dental Implants & Smile Design",
-                        "Orthodontics & Clear Aligners",
+                        "Single Tooth Implants",
+                        "Multiple Teeth Implants",
                         "Full Mouth Rehabilitation",
-                        "Laser Dentistry",
-                        "Cosmetic Dentistry"
+                        "All-on-4 Implants",
+                        "Immediate Load Implants"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
                           <span className="bg-emerald-200 p-1 rounded-full">
@@ -100,14 +100,14 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                   </div>
 
                   <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
-                    <h3 className="text-xl font-bold text-purple-800 mb-4">Our Approach</h3>
+                    <h3 className="text-xl font-bold text-purple-800 mb-4">Why Choose Us</h3>
                     <ul className="space-y-3">
                       {[
-                        "Patient-First Philosophy",
-                        "Painless Treatments",
-                        "Latest Digital Technology",
-                        "Personalized Care Plans",
-                        "International Sterilization Standards"
+                        "Computer-Guided Implants",
+                        "Premium Quality Implants",
+                        "Painless Procedures",
+                        "3D Treatment Planning",
+                        "Lifetime Warranty*"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
                           <span className="bg-purple-200 p-1 rounded-full">
@@ -131,11 +131,11 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               onClick={onBookAppointment}
               className="bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105 inline-flex items-center gap-2 group"
             >
-              Schedule a Consultation with Dr. Apurva
+              Book Your Implant Consultation
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="mt-3 text-emerald-600 font-medium">
-              Get a Free Consultation + Digital Scan
+              Free Consultation + 3D Implant Planning Worth ₹1500
             </p>
           </div>
         </div>
