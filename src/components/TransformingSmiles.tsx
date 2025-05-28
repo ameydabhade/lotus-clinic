@@ -67,7 +67,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                   className="absolute top-0 left-0 w-full h-full object-cover rounded-[20px]" 
                   controls
                   muted
-                  poster="/images/thumnail.png"
+                  poster="/images/thumbnail.png"
                 >
                   <source src="/images/transformations/1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -99,7 +99,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                   className="absolute top-0 left-0 w-full h-full object-cover rounded-[20px]" 
                   controls
                   muted
-                  poster="/images/thumnail.png"
+                  poster="/images/thumbnail.png"
                 >
                   <source src="/images/transformations/2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
