@@ -62,11 +62,10 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         <div>
           <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
             <video 
-              className="w-full aspect-video object-cover" 
+              className="w-full h-[400px] object-cover" 
               controls
               muted
-              playsInline
-              poster="/images/transformations/1-thumbnail.jpg"
+              poster="/images/thumnail.png"
             >
               <source src="/images/transformations/1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -84,18 +83,17 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-emerald-600 font-medium">
-            Free Consultation + Digital Scan
+            Free Consultation + 3D Implant Planning
           </p>
         </div>
 
         <div>
           <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
             <video 
-              className="w-full aspect-video object-cover" 
+              className="w-full h-[400px] object-cover" 
               controls
               muted
-              playsInline
-              poster="/images/transformations/2-thumbnail.jpg"
+              poster="/images/thumnail.png"
             >
               <source src="/images/transformations/2.mp4" type="video/mp4" />
               Your browser does not support the video tag.

@@ -135,7 +135,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="mt-3 text-emerald-600 font-medium">
-              Free Consultation + Digital Scan worth ₹1500
+              Free Consultation + 3D Implant Planning Worth ₹1500
             </p>
           </div>
         </div>
