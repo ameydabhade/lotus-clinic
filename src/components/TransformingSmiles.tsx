@@ -60,16 +60,20 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
 
       <div className="md:grid md:grid-cols-2 gap-6">
         <div>
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
-            <video 
-              className="w-full h-[400px] object-cover" 
-              controls
-              muted
-              poster="/images/thumnail.png"
-            >
-              <source src="/images/transformations/1.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="bg-white rounded-[20px] overflow-hidden shadow-lg mb-4">
+            <div className="relative w-full max-w-sm mx-auto">
+              <div className="relative pt-[177.78%]">
+                <video 
+                  className="absolute top-0 left-0 w-full h-full object-cover rounded-[20px]" 
+                  controls
+                  muted
+                  poster="/images/thumnail.png"
+                >
+                  <source src="/images/transformations/1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
             <div className="p-4">
               <h3 className="font-semibold text-lg mb-1">Complete Transformation</h3>
               <p className="text-gray-600 text-sm">Watch this amazing dental implant journey</p>
@@ -88,16 +92,20 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         </div>
 
         <div>
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
-            <video 
-              className="w-full h-[400px] object-cover" 
-              controls
-              muted
-              poster="/images/thumnail.png"
-            >
-              <source src="/images/transformations/2.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="bg-white rounded-[20px] overflow-hidden shadow-lg mb-4">
+            <div className="relative w-full max-w-sm mx-auto">
+              <div className="relative pt-[177.78%]">
+                <video 
+                  className="absolute top-0 left-0 w-full h-full object-cover rounded-[20px]" 
+                  controls
+                  muted
+                  poster="/images/thumnail.png"
+                >
+                  <source src="/images/transformations/2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
             <div className="p-4">
               <h3 className="font-semibold text-lg mb-1">Life-Changing Results</h3>
               <p className="text-gray-600 text-sm">Experience the power of dental implants</p>
