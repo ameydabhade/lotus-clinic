@@ -24,7 +24,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </div>
 
         {/* Special Offer Section */}
-        <div className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1 relative overflow-hidden">
+        <div className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-600 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1 relative overflow-hidden">
           {/* Decorative Elements */}
           <div className="absolute top-0 right-0 w-24 h-24 bg-primary-500 opacity-10 rounded-full -mr-12 -mt-12"></div>
           <div className="absolute bottom-0 left-0 w-32 h-32 bg-primary-500 opacity-10 rounded-full -ml-16 -mb-16"></div>
@@ -38,7 +38,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
               Smile Makeover Package
             </h2>
             
-            <div className="bg-primary-800 bg-opacity-50 p-4 rounded-lg mb-4">
+            <div className="bg-primary-500 bg-opacity-50 p-4 rounded-lg mb-4">
               <div className="text-yellow-300 text-4xl md:text-5xl font-bold mb-1">
                 Special Offer
               </div>
@@ -77,7 +77,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </button>
         <a 
           href="tel:+917020210426" 
-          className="bg-primary-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-primary-900 transition-colors md:min-w-[240px]"
+          className="bg-primary-600 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-primary-900 transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
         </a>

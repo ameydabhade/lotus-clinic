@@ -81,7 +81,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
           </div>
           <button 
             onClick={onBookAppointment} 
-            className="bg-gradient-to-r from-primary-400 to-primary-500 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-primary-500 hover:to-primary-600 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
+            className="bg-gradient-to-r from-primary-500 to-primary-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-primary-500 hover:to-primary-600 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
           >
             Schedule Your Implant Consultation
             <span className="group-hover:translate-x-1 transition-transform">→</span>

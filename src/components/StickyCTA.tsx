@@ -17,7 +17,7 @@ export default function StickyCTA({ isVisible, onBookAppointment }: StickyCtaPro
           <button onClick={onBookAppointment} className="bg-purple-500 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-purple-600 transition-colors">
             BOOK APPOINTMENT
           </button>
-          <a href="tel:+917020210426" className="bg-primary-800 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-primary-700 transition-colors">
+          <a href="tel:+917020210426" className="bg-primary-700 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-primary-700 transition-colors">
             CALL NOW ☏
           </a>
         </div>
