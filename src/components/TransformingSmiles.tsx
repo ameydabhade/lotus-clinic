@@ -15,7 +15,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
     {
       id: 2,
       title: "Professional Smile Makeover",
-      description: "Comprehensive smile transformation by Dr. Apurva Chaudhari",
+      description: "Comprehensive transformation by Dr. Apurva Chaudhari",
       image: "/images/results/2.png"
     },
     {
@@ -54,20 +54,33 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
       </div>
 
       <p className="text-center my-6 md:text-lg max-w-3xl mx-auto">
-        Ready to transform your smile?<br />
-        Book a consultation to discover your smile potential!
+        Watch our patient transformation stories<br />
+        See how dental implants can change your life!
       </p>
 
       <div className="md:grid md:grid-cols-2 gap-6">
         <div>
-          <div className="bg-gray-200 rounded-lg h-48 md:h-64 flex items-center justify-center mb-4">
-            <span className="text-gray-500">Patient Success Video 1</span>
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
+            <video 
+              className="w-full aspect-video object-cover" 
+              controls
+              muted
+              playsInline
+              poster="/images/transformations/1-thumbnail.jpg"
+            >
+              <source src="/images/transformations/1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-1">Complete Transformation</h3>
+              <p className="text-gray-600 text-sm">Watch this amazing dental implant journey</p>
+            </div>
           </div>
           <button 
             onClick={onBookAppointment} 
             className="bg-gradient-to-r from-emerald-500 to-emerald-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
           >
-            Schedule Your Consultation
+            Schedule Your Implant Consultation
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-emerald-600 font-medium">
@@ -76,18 +89,31 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         </div>
 
         <div>
-          <div className="bg-gray-200 rounded-lg h-48 md:h-64 flex items-center justify-center mb-4">
-            <span className="text-gray-500">Patient Success Video 2</span>
+          <div className="bg-white rounded-lg overflow-hidden shadow-lg mb-4">
+            <video 
+              className="w-full aspect-video object-cover" 
+              controls
+              muted
+              playsInline
+              poster="/images/transformations/2-thumbnail.jpg"
+            >
+              <source src="/images/transformations/2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-1">Life-Changing Results</h3>
+              <p className="text-gray-600 text-sm">Experience the power of dental implants</p>
+            </div>
           </div>
           <button 
             onClick={onBookAppointment} 
             className="bg-gradient-to-r from-purple-500 to-purple-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-purple-600 hover:to-purple-700 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
           >
-            Book Your Appointment
+            Book Your Free Consultation
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-purple-600 font-medium">
-            Limited Time Special Offer
+            Limited Time Special Offer on Implants
           </p>
         </div>
       </div>
