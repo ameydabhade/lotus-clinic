@@ -4,10 +4,10 @@ interface CTABoxProps {
 
 export default function CTABox({ onBookAppointment }: CTABoxProps) {
   return (
-    <section className="bg-gradient-to-br from-emerald-600 via-emerald-700 to-emerald-800 text-white p-8 md:p-12 relative overflow-hidden">
+    <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white p-8 md:p-12 relative overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500 opacity-10 rounded-full -mr-16 -mt-16 animate-pulse"></div>
-      <div className="absolute bottom-0 left-0 w-40 h-40 bg-emerald-400 opacity-10 rounded-full -ml-20 -mb-20"></div>
+      <div className="absolute bottom-0 left-0 w-40 h-40 bg-blue-400 opacity-10 rounded-full -ml-20 -mb-20"></div>
       
       <div className="max-w-4xl mx-auto relative">
         <div className="text-center mb-8">
@@ -27,7 +27,7 @@ export default function CTABox({ onBookAppointment }: CTABoxProps) {
           </div>
 
           <div className="grid md:grid-cols-2 gap-4 mb-8">
-            <div className="bg-emerald-800/50 rounded-lg p-4">
+            <div className="bg-blue-800/50 rounded-lg p-4">
               <h3 className="text-xl font-bold mb-2 text-purple-300">
                 Free Consultation + Digital Scan Package
               </h3>
@@ -50,7 +50,7 @@ export default function CTABox({ onBookAppointment }: CTABoxProps) {
               </div>
             </div>
 
-            <div className="bg-emerald-800/50 rounded-lg p-4">
+            <div className="bg-blue-800/50 rounded-lg p-4">
               <h3 className="text-xl font-bold mb-2 text-purple-300">
                 Exclusive Benefits
               </h3>
@@ -82,7 +82,7 @@ export default function CTABox({ onBookAppointment }: CTABoxProps) {
             <span className="group-hover:translate-x-1 transition-transform">➤</span>
           </button>
           
-          <p className="mt-4 text-sm text-emerald-100">
+          <p className="mt-4 text-sm text-blue-100">
             *Limited slots available. T&C apply.
           </p>
         </div>

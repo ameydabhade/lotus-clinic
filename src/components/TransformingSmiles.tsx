@@ -31,7 +31,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
       <h2 className="text-xl md:text-3xl font-bold text-center mb-2">
         <u>Transforming Smiles</u>
       </h2>
-      <p className="text-center text-emerald-600 font-bold mb-6 md:text-lg">
+      <p className="text-center text-blue-600 font-bold mb-6 md:text-lg">
         Real results from our satisfied patients
       </p>
 
@@ -81,12 +81,12 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
           </div>
           <button 
             onClick={onBookAppointment} 
-            className="bg-gradient-to-r from-emerald-500 to-emerald-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
+            className="bg-gradient-to-r from-blue-500 to-blue-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
           >
             Schedule Your Implant Consultation
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
-          <p className="text-center text-emerald-600 font-medium">
+          <p className="text-center text-blue-600 font-medium">
             Free Consultation + 3D Implant Planning
           </p>
         </div>

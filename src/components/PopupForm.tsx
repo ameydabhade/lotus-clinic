@@ -30,9 +30,9 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         </button>
 
         {/* Header Section */}
-        <div className="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white p-6 rounded-t-2xl">
+        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-2xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Transform Your Smile Today!</h2>
-          <p className="text-emerald-100">Book your consultation with Dr. Apurva Chaudhari</p>
+          <p className="text-blue-100">Book your consultation with Dr. Apurva Chaudhari</p>
           
           {/* Countdown Timer */}
           <div className="mt-4 flex items-center gap-4 bg-white/10 rounded-xl p-4">
@@ -42,7 +42,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
               </div>
             </div>
             <div>
-              <p className="text-sm text-emerald-100">Special Offer Expires In:</p>
+              <p className="text-sm text-blue-100">Special Offer Expires In:</p>
               <div className="text-2xl font-bold">
                 {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
               </div>
@@ -70,7 +70,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                 <input 
                   type="text" 
                   required 
-                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all" 
+                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
                   placeholder="Enter your full name"
                 />
               </div>
@@ -79,7 +79,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                 <input 
                   type="tel" 
                   required 
-                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all" 
+                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -90,14 +90,14 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
               <input 
                 type="email" 
                 required 
-                className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all" 
+                className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
                 placeholder="Enter your email address"
               />
             </div>
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Treatment Interest</label>
-              <select required className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all">
+              <select required className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
                 <option value="">Select Treatment</option>
                 <option value="implants">Dental Implants</option>
                 <option value="braces">Braces & Aligners</option>
@@ -111,7 +111,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
               <label className="block text-sm font-medium text-gray-700 mb-2">Additional Notes</label>
               <textarea 
                 rows={3} 
-                className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all resize-none" 
+                className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all resize-none" 
                 placeholder="Briefly describe your dental concerns..."
               ></textarea>
             </div>
@@ -122,12 +122,12 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                 <input 
                   type="date" 
                   required 
-                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all" 
+                  className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all" 
                 />
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Preferred Time</label>
-                <select required className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all">
+                <select required className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
                   <option value="">Select Time Slot</option>
                   <option value="morning">Morning (10:30 AM - 2:00 PM)</option>
                   <option value="evening">Evening (4:00 PM - 9:00 PM)</option>
@@ -137,7 +137,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
 
             <button 
               type="submit" 
-              className="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white py-4 rounded-xl font-bold text-lg hover:from-emerald-600 hover:to-emerald-700 transition-all transform hover:scale-[1.02] focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
+              className="w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white py-4 rounded-xl font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-[1.02] focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
               Complete Booking
             </button>

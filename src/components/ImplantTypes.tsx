@@ -48,12 +48,12 @@ export default function ImplantTypes() {
   ];
 
   return (
-    <section className="bg-emerald-600 text-white p-4 md:p-8 lg:p-12 pb-16">
+    <section className="bg-blue-600 text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold text-center text-purple-300 mb-4">
           When it comes to Dental Implants, choose <em>Lotus Dental Care</em>
         </h2>
-        <p className="text-center text-emerald-100 mb-8 md:text-lg max-w-3xl mx-auto">
+        <p className="text-center text-blue-100 mb-8 md:text-lg max-w-3xl mx-auto">
           At Lotus Dental Care &amp; Implant Centre, we specialize in providing all types of dental implants 
           to help you achieve a beautiful and functional smile using the latest procedures and technology.
         </p>
@@ -61,7 +61,7 @@ export default function ImplantTypes() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {implantData.map((implant, index) => (
             <div key={index} className="bg-white text-gray-800 p-4 md:p-6 rounded-lg">
-              <div className="bg-emerald-50/80 rounded-lg mb-4 relative aspect-[4/3] w-full">
+              <div className="bg-blue-50/80 rounded-lg mb-4 relative aspect-[4/3] w-full">
                 <Image 
                   src={implant.image} 
                   alt={implant.title} 
@@ -75,7 +75,7 @@ export default function ImplantTypes() {
               <ul className="space-y-1">
                 {implant.benefits.map((benefit, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-emerald-500">✓</span>
+                    <span className="text-blue-500">✓</span>
                     <span className="text-sm md:text-base">{benefit}</span>
                   </li>
                 ))}

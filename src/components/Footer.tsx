@@ -17,24 +17,24 @@ export default function Footer() {
 
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
           <div>
-            <h3 className="font-bold text-emerald-600 mb-2 md:text-lg">Contact Us</h3>
-            <a href="tel:+917020210426" className="block text-emerald-600 font-bold md:text-lg hover:text-emerald-700 transition-colors">+91 70202 10426</a>
-            <a href="tel:+917304614767" className="block text-emerald-600 font-bold md:text-lg hover:text-emerald-700 transition-colors">+91 73046 14767</a>
-            <p className="text-emerald-600">lotusdentalcare01@gmail.com</p>
+            <h3 className="font-bold text-blue-600 mb-2 md:text-lg">Contact Us</h3>
+            <a href="tel:+917020210426" className="block text-blue-600 font-bold md:text-lg hover:text-blue-700 transition-colors">+91 70202 10426</a>
+            <a href="tel:+917304614767" className="block text-blue-600 font-bold md:text-lg hover:text-blue-700 transition-colors">+91 73046 14767</a>
+            <p className="text-blue-600">lotusdentalcare01@gmail.com</p>
           </div>
 
           <div>
-            <h3 className="font-bold text-emerald-600 mb-2 md:text-lg">Open Hours</h3>
-            <p className="text-emerald-600 md:text-lg">Morning: 10:30 AM - 2:00 PM</p>
-            <p className="text-emerald-600 md:text-lg">Evening: 4:00 PM - 9:00 PM</p>
+            <h3 className="font-bold text-blue-600 mb-2 md:text-lg">Open Hours</h3>
+            <p className="text-blue-600 md:text-lg">Morning: 10:30 AM - 2:00 PM</p>
+            <p className="text-blue-600 md:text-lg">Evening: 4:00 PM - 9:00 PM</p>
           </div>
 
           <div>
-            <h3 className="font-bold text-emerald-600 mb-2 md:text-lg">Location</h3>
-            <p className="text-emerald-600 font-bold">
+            <h3 className="font-bold text-blue-600 mb-2 md:text-lg">Location</h3>
+            <p className="text-blue-600 font-bold">
               📍 Shop No. 2, Gulmohar Co-Op Hsg. Society, Flower Valley, Khadakpada Circle, Near Anat Halwai, Beturkar Pada, Kalyan (W), Maharashtra – 421301
             </p>
-            <p className="text-emerald-600 mt-2">
+            <p className="text-blue-600 mt-2">
               <strong>Landmark:</strong> Near Monginis Cake Shop, facing Station Road / Kalatalav Road
             </p>
           </div>

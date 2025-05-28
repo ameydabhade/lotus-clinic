@@ -9,7 +9,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Transform Your Smile with<br />
-        <span className="text-emerald-600">Advanced Dental Care</span>
+        <span className="text-blue-600">Advanced Dental Care</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -24,13 +24,13 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </div>
 
         {/* Special Offer Section */}
-        <div className="bg-gradient-to-br from-emerald-600 via-emerald-700 to-emerald-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1 relative overflow-hidden">
+        <div className="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1 relative overflow-hidden">
           {/* Decorative Elements */}
-          <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500 opacity-10 rounded-full -mr-12 -mt-12"></div>
-          <div className="absolute bottom-0 left-0 w-32 h-32 bg-emerald-500 opacity-10 rounded-full -ml-16 -mb-16"></div>
+          <div className="absolute top-0 right-0 w-24 h-24 bg-blue-500 opacity-10 rounded-full -mr-12 -mt-12"></div>
+          <div className="absolute bottom-0 left-0 w-32 h-32 bg-blue-500 opacity-10 rounded-full -ml-16 -mb-16"></div>
           
           <div className="relative">
-            <span className="inline-block bg-yellow-400 text-emerald-900 px-4 py-1 rounded-full text-sm font-bold mb-4 animate-pulse">
+            <span className="inline-block bg-yellow-400 text-blue-900 px-4 py-1 rounded-full text-sm font-bold mb-4 animate-pulse">
               Limited Time Offer
             </span>
             
@@ -38,7 +38,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
               Smile Makeover Package
             </h2>
             
-            <div className="bg-emerald-800 bg-opacity-50 p-4 rounded-lg mb-4">
+            <div className="bg-blue-800 bg-opacity-50 p-4 rounded-lg mb-4">
               <div className="text-yellow-300 text-4xl md:text-5xl font-bold mb-1">
                 Special Offer
               </div>
@@ -77,19 +77,19 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </button>
         <a 
           href="tel:+917020210426" 
-          className="bg-emerald-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-emerald-900 transition-colors md:min-w-[240px]"
+          className="bg-blue-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-blue-900 transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
         </a>
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="bg-gradient-to-br from-emerald-50 to-white p-6 md:p-8 rounded-2xl shadow-lg md:max-w-4xl md:mx-auto">
+      <div className="bg-gradient-to-br from-blue-50 to-white p-6 md:p-8 rounded-2xl shadow-lg md:max-w-4xl md:mx-auto">
         <div className="text-center mb-6">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Why Choose <span className="text-emerald-600">Lotus Dental Care?</span>
+            Why Choose <span className="text-blue-600">Lotus Dental Care?</span>
           </h3>
-          <p className="text-emerald-600 md:text-lg">Experience Excellence in Dental Care</p>
+          <p className="text-blue-600 md:text-lg">Experience Excellence in Dental Care</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -97,8 +97,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           <div className="space-y-4">
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
@@ -111,8 +111,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
@@ -125,8 +125,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                   </svg>
                 </div>
@@ -142,8 +142,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           <div className="space-y-4">
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                   </svg>
                 </div>
@@ -156,8 +156,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
@@ -170,8 +170,8 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
             <div className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all">
               <div className="flex items-start gap-3">
-                <div className="bg-emerald-100 p-2 rounded-lg">
-                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-blue-100 p-2 rounded-lg">
+                  <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                   </svg>
                 </div>
@@ -193,7 +193,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <span className="group-hover:translate-x-1 transition-transform">➤</span>
           </button>
           <div className="mt-3 space-y-1">
-            <p className="text-emerald-600 font-bold">Book Now & Get Free Consultation + Digital Scan</p>
+            <p className="text-blue-600 font-bold">Book Now & Get Free Consultation + Digital Scan</p>
             <p className="text-sm text-gray-500">Limited Time Offer</p>
           </div>
         </div>

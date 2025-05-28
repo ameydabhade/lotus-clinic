@@ -257,7 +257,7 @@ export default function ComponentName({ onBookAppointment }: ComponentNameProps)
 - **Primary Blue:** `bg-blue-800`, `text-blue-600`
 - **CTA Yellow:** `bg-yellow-400`, `hover:bg-yellow-300`
 - **Success Green:** `text-green-500`
-- **Warning Orange:** `text-orange-500`
+- **Warning blue:** `text-blue-500`
 - **Neutral Gray:** `bg-gray-200`, `text-gray-500`
 
 ### Typography Scale
