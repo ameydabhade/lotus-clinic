@@ -38,13 +38,13 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="p-4 md:p-8 lg:p-12 bg-gradient-to-b from-blue-50 to-white">
+    <section className="p-4 md:p-8 lg:p-12 bg-gradient-to-b from-primary-50 to-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
             Frequently Asked Questions
           </h2>
-          <p className="text-blue-600 md:text-lg">
+          <p className="text-primary-600 md:text-lg">
             Get answers to common questions about our dental services
           </p>
         </div>
@@ -55,8 +55,8 @@ export default function FAQSection() {
               key={index} 
               className={`border-2 rounded-xl transition-all duration-300 ${
                 openFAQ === index 
-                  ? 'border-blue-500 shadow-lg' 
-                  : 'border-gray-200 hover:border-blue-200'
+                  ? 'border-primary-500 shadow-lg' 
+                  : 'border-gray-200 hover:border-primary-200'
               }`}
             >
               <button
@@ -64,11 +64,11 @@ export default function FAQSection() {
                 className="w-full p-5 text-left font-medium flex justify-between items-center gap-4"
               >
                 <span className={`flex-grow pr-4 transition-colors duration-300 ${
-                  openFAQ === index ? 'text-blue-600' : 'text-gray-700'
+                  openFAQ === index ? 'text-primary-600' : 'text-gray-700'
                 }`}>
                   {faq.question}
                 </span>
-                <span className="text-blue-600 flex-shrink-0">
+                <span className="text-primary-600 flex-shrink-0">
                   {openFAQ === index ? (
                     <ChevronUp className="h-5 w-5" />
                   ) : (

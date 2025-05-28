@@ -150,7 +150,7 @@ Once deployed on Vercel/Netlify:
 
 ### Changing Colors/Branding:
 1. Edit `src/app/globals.css`
-2. Update blue color values (`blue-600`, etc.)
+2. Update blue color values (`primary-600`, etc.)
 3. Modify logo/text in header
 4. Test across all sections
 

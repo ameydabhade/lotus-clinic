@@ -10,7 +10,7 @@ export default function MobileMenu() {
     <div className="md:hidden">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-md text-gray-600 hover:text-blue-600"
+        className="p-2 rounded-md text-gray-600 hover:text-primary-600"
       >
         {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
       </button>
@@ -20,35 +20,35 @@ export default function MobileMenu() {
           <nav className="px-4 py-2 space-y-2">
             <a 
               href="#about" 
-              className="block py-2 text-gray-600 hover:text-blue-600 font-medium"
+              className="block py-2 text-gray-600 hover:text-primary-600 font-medium"
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a 
               href="#services" 
-              className="block py-2 text-gray-600 hover:text-blue-600 font-medium"
+              className="block py-2 text-gray-600 hover:text-primary-600 font-medium"
               onClick={() => setIsOpen(false)}
             >
               Services
             </a>
             <a 
               href="#testimonials" 
-              className="block py-2 text-gray-600 hover:text-blue-600 font-medium"
+              className="block py-2 text-gray-600 hover:text-primary-600 font-medium"
               onClick={() => setIsOpen(false)}
             >
               Testimonials
             </a>
             <a 
               href="#contact" 
-              className="block py-2 text-gray-600 hover:text-blue-600 font-medium"
+              className="block py-2 text-gray-600 hover:text-primary-600 font-medium"
               onClick={() => setIsOpen(false)}
             >
               Contact
             </a>
             <a 
               href="tel:+917020210426" 
-              className="block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-center mt-4"
+              className="block bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition text-center mt-4"
               onClick={() => setIsOpen(false)}
             >
               Book Appointment

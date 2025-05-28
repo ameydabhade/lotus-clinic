@@ -6,16 +6,16 @@ interface DoctorProfileProps {
 
 export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps) {
   return (
-    <section className="p-4 md:p-8 lg:p-12 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section className="p-4 md:p-8 lg:p-12 bg-gradient-to-br from-primary-50 via-white to-purple-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <span className="inline-block bg-blue-100 text-blue-600 px-6 py-2 rounded-full text-sm font-bold mb-4">
+          <span className="inline-block bg-primary-100 text-primary-400 px-6 py-2 rounded-full text-sm font-bold mb-4">
             Expert Implantologist in Kalyan
           </span>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
             Meet Your Dental Implant Specialist
           </h2>
-          <p className="text-blue-600 md:text-lg">
+          <p className="text-primary-400 md:text-lg">
             Restoring Smiles with Advanced Implant Technology
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
             {/* Doctor's Image & Basic Info */}
             <div className="text-center mb-8 md:mb-0 md:flex-shrink-0 md:w-1/3">
               <div className="relative">
-                <div className="w-56 h-56 md:w-72 md:h-72 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl mx-auto mb-6 p-2">
+                <div className="w-56 h-56 md:w-72 md:h-72 bg-gradient-to-br from-primary-100 to-purple-100 rounded-2xl mx-auto mb-6 p-2">
                   <div className="w-full h-full overflow-hidden rounded-xl relative">
                     <Image 
                       src="/images/doctor.png" 
@@ -37,22 +37,22 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                   </div>
                 </div>
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white px-6 py-3 rounded-full shadow-md">
-                  <h3 className="text-xl font-bold text-blue-600">Dr. Apurva Chaudhari</h3>
+                  <h3 className="text-xl font-bold text-primary-400">Dr. Apurva Chaudhari</h3>
                 </div>
               </div>
               <div className="mt-8">
                 <p className="text-purple-600 font-semibold text-lg mb-2">Chief Implantologist</p>
                 <div className="flex justify-center gap-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">8+</div>
+                    <div className="text-2xl font-bold text-primary-400">8+</div>
                     <div className="text-sm text-gray-600">Years Experience</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">500+</div>
+                    <div className="text-2xl font-bold text-primary-400">500+</div>
                     <div className="text-sm text-gray-600">Implants Done</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">4.9★</div>
+                    <div className="text-2xl font-bold text-primary-400">4.9★</div>
                     <div className="text-sm text-gray-600">Rating</div>
                   </div>
                 </div>
@@ -77,8 +77,8 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">
-                  <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6">
-                    <h3 className="text-xl font-bold text-blue-800 mb-4">Implant Services</h3>
+                  <div className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
+                    <h3 className="text-xl font-bold text-primary-800 mb-4">Implant Services</h3>
                     <ul className="space-y-3">
                       {[
                         "Single Tooth Implants",
@@ -88,12 +88,12 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
                         "Immediate Load Implants"
                       ].map((item, index) => (
                         <li key={index} className="flex items-center gap-3">
-                          <span className="bg-blue-200 p-1 rounded-full">
-                            <svg className="w-4 h-4 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <span className="bg-primary-200 p-1 rounded-full">
+                            <svg className="w-4 h-4 text-primary-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                           </span>
-                          <span className="text-blue-900">{item}</span>
+                          <span className="text-primary-900">{item}</span>
                         </li>
                       ))}
                     </ul>
@@ -129,12 +129,12 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
           <div className="text-center">
             <button 
               onClick={onBookAppointment}
-              className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105 inline-flex items-center gap-2 group"
+              className="bg-gradient-to-r from-primary-400 to-primary-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105 inline-flex items-center gap-2 group"
             >
               Book Your Implant Consultation
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
-            <p className="mt-3 text-blue-600 font-medium">
+            <p className="mt-3 text-primary-400 font-medium">
               Free Consultation + 3D Implant Planning Worth ₹1500
             </p>
           </div>

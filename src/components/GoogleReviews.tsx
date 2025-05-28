@@ -42,7 +42,7 @@ export default function GoogleReviews() {
           {reviews.map((review, index) => (
             <div key={index} className="bg-white border rounded-lg p-4 md:p-6 shadow-sm hover:shadow-md transition-all duration-300">
               <div className="flex items-start gap-3 mb-3">
-                <div className="w-10 h-10 md:w-12 md:h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold">
                   {review.initials}
                 </div>
                 <div>

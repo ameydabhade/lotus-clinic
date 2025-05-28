@@ -185,7 +185,7 @@ export default function ComponentName({ onBookAppointment }: ComponentNameProps)
 ```typescript
 <button 
   onClick={onBookAppointment} 
-  className="bg-yellow-400 text-blue-900 py-3 px-6 rounded-lg font-bold w-full hover:bg-yellow-300 transition-colors"
+  className="bg-yellow-400 text-primary-900 py-3 px-6 rounded-lg font-bold w-full hover:bg-yellow-300 transition-colors"
 >
   Button Text
 </button>
@@ -254,10 +254,10 @@ export default function ComponentName({ onBookAppointment }: ComponentNameProps)
 ## Styling System
 
 ### Color Palette
-- **Primary Blue:** `bg-blue-800`, `text-blue-600`
+- **Primary Blue:** `bg-primary-800`, `text-primary-600`
 - **CTA Yellow:** `bg-yellow-400`, `hover:bg-yellow-300`
 - **Success Green:** `text-green-500`
-- **Warning blue:** `text-blue-500`
+- **Warning blue:** `text-primary-500`
 - **Neutral Gray:** `bg-gray-200`, `text-gray-500`
 
 ### Typography Scale
