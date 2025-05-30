@@ -1,6 +1,18 @@
 'use client';
 import { useState } from 'react';
 
+// Define types for the Google Script response and the window object
+interface GoogleScriptResponse {
+  result: 'success' | 'error';
+  message: string;
+}
+
+declare global {
+  interface Window {
+    handleGoogleScriptResponse?: (response: GoogleScriptResponse) => void;
+  }
+}
+
 interface PopupFormProps {
   isOpen: boolean;
   onClose: () => void;
@@ -49,7 +61,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
       script.src = `${scriptURL}?${params.toString()}`;
 
       // Define the callback function globally
-      (window as any).handleGoogleScriptResponse = (response: any) => {
+      window.handleGoogleScriptResponse = (response: GoogleScriptResponse) => {
         setIsSubmitting(false);
         if (response.result === 'success') {
           alert('Thank you for booking your appointment! We will contact you shortly to confirm.');
@@ -69,7 +81,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         if (scriptId) {
           document.getElementById(scriptId)?.remove();
         }
-        delete (window as any).handleGoogleScriptResponse;
+        delete window.handleGoogleScriptResponse;
       };
       
       document.body.appendChild(script);
@@ -82,7 +94,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
       if (scriptId) {
         document.getElementById(scriptId)?.remove();
       }
-      delete (window as any).handleGoogleScriptResponse;
+      delete window.handleGoogleScriptResponse;
     }
   };
 
