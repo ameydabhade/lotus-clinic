@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 // Define types for the Google Script response and the window object
 interface GoogleScriptResponse {
@@ -21,6 +22,7 @@ interface PopupFormProps {
 }
 
 export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFormProps) {
+  const router = useRouter();
   // State for form fields
   const [fullName, setFullName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -64,7 +66,6 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
       window.handleGoogleScriptResponse = (response: GoogleScriptResponse) => {
         setIsSubmitting(false);
         if (response.result === 'success') {
-          alert('Thank you for booking your appointment! We will contact you shortly to confirm.');
           // Reset form fields
           setFullName('');
           setPhoneNumber('');
@@ -74,6 +75,8 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
           setPreferredDate('');
           setPreferredTime('');
           onClose();
+          // Redirect to thank you page
+          router.push('/thank-you');
         } else {
           setSubmitMessage('Error: ' + response.message);
           alert('Submission failed: ' + response.message);
