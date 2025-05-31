@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function ThankYou() {
   return (
@@ -16,7 +15,7 @@ export default function ThankYou() {
             </div>
           </div>
           <h2 className="text-3xl font-bold text-white mb-2">Thank You for Booking!</h2>
-          <p className="text-primary-100">We're excited to meet you and help transform your smile.</p>
+          <p className="text-primary-100">We&apos;re excited to meet you and help transform your smile.</p>
         </div>
 
         <div className="p-6 md:p-8">
@@ -57,11 +56,11 @@ export default function ThankYou() {
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold">2</span>
-                <span className="text-gray-600">We'll call you within 2 hours to confirm your appointment</span>
+                <span className="text-gray-600">We&apos;ll call you within 2 hours to confirm your appointment</span>
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold">3</span>
-                <span className="text-gray-600">You'll receive an email confirmation with appointment details</span>
+                <span className="text-gray-600">You&apos;ll receive an email confirmation with appointment details</span>
               </li>
             </ol>
           </div>
