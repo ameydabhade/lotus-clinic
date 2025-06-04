@@ -4,18 +4,18 @@ import { useCallback } from 'react';
 
 declare global {
   interface Window {
-    fbq: any;
+    fbq: (...args: unknown[]) => void;
   }
 }
 
 export const useMetaPixel = () => {
-  const trackEvent = useCallback((eventName: string, parameters?: Record<string, any>) => {
+  const trackEvent = useCallback((eventName: string, parameters?: Record<string, unknown>) => {
     if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('track', eventName, parameters);
     }
   }, []);
 
-  const trackCustomEvent = useCallback((eventName: string, parameters?: Record<string, any>) => {
+  const trackCustomEvent = useCallback((eventName: string, parameters?: Record<string, unknown>) => {
     if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('trackCustom', eventName, parameters);
     }
@@ -27,7 +27,7 @@ export const useMetaPixel = () => {
     }
   }, []);
 
-  const trackAppointmentBooked = useCallback((additionalData?: Record<string, any>) => {
+  const trackAppointmentBooked = useCallback((additionalData?: Record<string, unknown>) => {
     if (typeof window !== 'undefined' && window.fbq) {
       // Standard events
       window.fbq('track', 'Lead');
