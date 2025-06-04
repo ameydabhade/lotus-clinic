@@ -1,7 +1,27 @@
 'use client';
 import Image from 'next/image';
+import { useEffect } from 'react';
+import { useMetaPixel } from '@/components/useMetaPixel';
 
 export default function ThankYou() {
+  const { trackAppointmentBooked, trackPhoneCall, trackWhatsAppClick } = useMetaPixel();
+
+  useEffect(() => {
+    // Track appointment booking when the thank you page loads
+    trackAppointmentBooked({
+      source: 'website_form',
+      clinic: 'lotus_dental_care'
+    });
+  }, [trackAppointmentBooked]);
+
+  const handlePhoneClick = () => {
+    trackPhoneCall();
+  };
+
+  const handleWhatsAppClick = () => {
+    trackWhatsAppClick();
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
@@ -69,6 +89,7 @@ export default function ThankYou() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
               href="tel:+919876543210" 
+              onClick={handlePhoneClick}
               className="flex-1 inline-flex justify-center items-center px-6 py-4 border border-transparent rounded-xl shadow-sm text-lg font-medium text-white bg-primary-600 hover:bg-primary-700"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,6 +101,7 @@ export default function ThankYou() {
               href="https://wa.me/919876543210" 
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleWhatsAppClick}
               className="flex-1 inline-flex justify-center items-center px-6 py-4 border border-transparent rounded-xl shadow-sm text-lg font-medium text-white bg-green-600 hover:bg-green-700"
             >
               <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">

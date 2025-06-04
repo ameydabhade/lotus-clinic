@@ -72,9 +72,9 @@ export default function RootLayout({
         <meta name="theme-color" content="#059669" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <MetaPixel />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
+        <MetaPixel />
         {children}
       </body>
     </html>
