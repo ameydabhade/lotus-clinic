@@ -47,7 +47,7 @@ export default function MobileMenu() {
               Contact
             </a>
             <a 
-              href="tel:+917020210426" 
+              href="tel:+917768821234" 
               className="block bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-700 transition text-center mt-4"
               onClick={() => setIsOpen(false)}
             >

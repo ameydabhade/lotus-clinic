@@ -119,7 +119,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         {/* Header Section */}
         <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white p-6 rounded-t-2xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Transform Your Smile Today!</h2>
-          <p className="text-primary-100">Book your consultation with Dr. Apurva Chaudhari</p>
+          <p className="text-primary-100">Book your consultation with Dr. Purnata Manohar</p>
           
           {/* Countdown Timer */}
           <div className="mt-4 flex items-center gap-4 bg-white/10 rounded-xl p-4">
@@ -197,9 +197,11 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                 onChange={(e) => setTreatmentInterest(e.target.value)}
               >
                 <option value="">Select Treatment</option>
-                <option value="implants">Dental Implants</option>
-                <option value="braces">Braces & Aligners</option>
+                <option value="smile-designing">Digital Smile Designing</option>
                 <option value="cosmetic">Cosmetic Dentistry</option>
+                <option value="implants">Dental Implants</option>
+                <option value="root-canal">Root Canal Treatment</option>
+                <option value="whitening">Teeth Whitening</option>
                 <option value="general">General Dentistry</option>
                 <option value="other">Other Treatment</option>
               </select>

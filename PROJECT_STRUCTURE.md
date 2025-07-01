@@ -1,41 +1,70 @@
-# Lotus Dental Care - Complete Project Structure Documentation
+# Dr. Purnata's Dental & Cosmetic Care - Complete Project Structure Documentation
 
 ## Project Overview
 
-A comprehensive website for Lotus Dental Care & Implant Centre, showcasing dental services and facilitating patient engagement.
+A comprehensive website for Dr. Purnata's Dental & Cosmetic Care, showcasing dental and cosmetic services and facilitating patient engagement.
+
+### Basic Information
+```json
+{
+  "name": "dr-purnata-dental",
+  "version": "1.0.0",
+  "description": "Website for Dr. Purnata's Dental & Cosmetic Care"
+}
+```
+
+### SEO Configuration
+```typescript
+export const metadata: Metadata = {
+  title: "Dr. Purnata's Dental & Cosmetic Care | Dental Implants Pune",
+  description: "Expert cosmetic dentistry in Pune. Dr. Purnata Manohar - 10+ years experience, painless procedures, advanced technology. Book free consultation!",
+  openGraph: {
+    title: "Dr. Purnata's Dental & Cosmetic Care",
+    description: "Expert dental & cosmetic care in Pune",
+    url: "https://drpurnatadentalcare.com",
+    siteName: "Dr. Purnata's Dental Care",
+    images: [
+      {
+        url: "/images/hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Dr. Purnata's Dental & Cosmetic Care"
+      }
+    ]
+  }
+};
+```
+
+### Business Information
+```json
+{
+  "business": {
+    "name": "Dr. Purnata's Dental & Cosmetic Care",
+    "location": "Pune, Maharashtra",
+    "doctor": "Dr. Purnata Manohar",
+    "specialty": "Cosmetic Dentistry & Digital Smile Designing",
+    "email": "purnata.manohar@gmail.com",
+    "branches": {
+      "koregaon_park": {
+        "address": "Ganga Cascade, Flat 6, Between lane 5 and 6 Private Lane-5A, N Main Rd, Koregaon Park, Pune, Maharashtra 411001",
+        "phone": "+91 77688 21234"
+      },
+      "viman_nagar": {
+        "address": "Shop A-104, Shubh Gateway, Airport road, Opposite Symbiosis College, Viman Nagar, Pune, Maharashtra 411014",
+        "phone": "+91 77589 12578"
+      }
+    }
+  }
+}
+```
 
 ## Technical Details
 
 ```json
 {
-  "name": "lotus-dental",
+  "name": "dr-purnata-dental",
   "version": "1.0.0",
   "private": true
-}
-```
-
-## SEO Configuration
-
-```javascript
-// next-seo.config.js
-{
-  title: "Lotus Dental Care & Implant Centre | Dental Implants Kalyan",
-  description: "Expert dental implants in Kalyan West. Dr. Apurva Chaudhari - 8+ years experience, painless procedures, advanced technology. Book free consultation!",
-  openGraph: {
-    title: "Lotus Dental Care & Implant Centre",
-    type: "website",
-    url: "https://lotusdental.com",
-    siteName: "Lotus Dental Care",
-    locale: "en_IN",
-    images: [
-      {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Lotus Dental Care & Implant Centre"
-      }
-    ]
-  }
 }
 ```
 
@@ -44,12 +73,12 @@ A comprehensive website for Lotus Dental Care & Implant Centre, showcasing denta
 ```typescript
 // site.config.ts
 {
-  name: "Lotus Dental Care & Implant Centre",
-  location: "Kalyan West",
-  doctor: "Dr. Apurva Chaudhari",
-  phone: "+91 70202 10426",
-  email: "info@lotusdental.com",
-  address: "Kalyan West, Mumbai"
+  name: "Dr. Purnata's Dental & Cosmetic Care",
+  location: "Pune, Maharashtra",
+  doctor: "Dr. Purnata Manohar",
+  phone: "+91 77688 21234",
+  email: "purnata.manohar@gmail.com",
+  address: "Koregaon Park & Viman Nagar, Pune"
 }
 ```
 

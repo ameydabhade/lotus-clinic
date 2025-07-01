@@ -10,7 +10,7 @@ export default function ThankYou() {
     // Track appointment booking when the thank you page loads
     trackAppointmentBooked({
       source: 'website_form',
-      clinic: 'lotus_dental_care'
+      clinic: 'dr_purnata_dental_care'
     });
   }, [trackAppointmentBooked]);
 
@@ -44,20 +44,20 @@ export default function ThankYou() {
             <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-primary-100">
               <Image
                 src="/images/doctor.png"
-                alt="Dr. Apurva Chaudhari"
+                alt="Dr. Purnata Manohar"
                 fill
                 style={{ objectFit: 'cover' }}
               />
             </div>
             <div className="flex-1 text-center md:text-left">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Apurva Chaudhari</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Purnata Manohar</h3>
               <p className="text-gray-600 mb-4">
-                With over 15 years of experience in advanced dentistry, Dr. Apurva Chaudhari specializes in cosmetic dentistry, 
+                With over 10 years of experience in advanced dentistry, Dr. Purnata Manohar specializes in cosmetic dentistry, 
                 dental implants, and smile makeovers. Her gentle approach and expertise ensure you receive the highest quality dental care.
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                 <div className="bg-purple-50 px-4 py-2 rounded-lg">
-                  <span className="text-purple-800 font-medium">15+ Years Experience</span>
+                  <span className="text-purple-800 font-medium">10+ Years Experience</span>
                 </div>
                 <div className="bg-purple-50 px-4 py-2 rounded-lg">
                   <span className="text-purple-800 font-medium">5000+ Happy Patients</span>

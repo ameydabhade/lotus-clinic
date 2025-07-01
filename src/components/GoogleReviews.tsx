@@ -3,22 +3,22 @@ import Image from 'next/image';
 export default function GoogleReviews() {
   const reviews = [
     {
-      name: "Sneha Patel",
-      initials: "SP",
+      name: "Rajeshwari Ajwani",
+      initials: "RA",
       date: "March 15, 2024",
-      review: "Dr. Apurva is an amazing dentist! Got my dental implant done here and the experience was completely painless. The clinic is very modern and clean. The staff is friendly and professional. Highly recommend Lotus Dental Care for any dental treatment."
+      review: "Dr. Purnata is an amazing dentist! Got my smile makeover done here and the experience was completely painless. The clinic is very modern and clean. The staff is friendly and professional. Highly recommend Dr. Purnata's Dental & Cosmetic Care for any dental treatment."
     },
     {
-      name: "Rajesh Kumar", 
-      initials: "RK",
+      name: "Abin Varghese", 
+      initials: "AV",
       date: "February 28, 2024",
-      review: "Best dental clinic in Kalyan! Dr. Apurva explained everything clearly and made me feel comfortable throughout my braces treatment. The clinic has all the latest equipment and follows strict hygiene protocols. Very happy with the results."
+      review: "Best dental clinic in Pune! Dr. Purnata explained everything clearly and made me feel comfortable throughout my cosmetic treatment. The clinic has all the latest equipment and follows strict hygiene protocols. Very happy with my new smile!"
     },
     {
-      name: "Priya Mehta",
-      initials: "PM", 
+      name: "Priya Sharma",
+      initials: "PS", 
       date: "January 10, 2024",
-      review: "Had a great experience at Lotus Dental Care. Dr. Apurva is very gentle and patient. Got my root canal and crown done - absolutely no pain! The clinic is spacious, modern and conveniently located in Kalyan West. Definitely recommend!"
+      review: "Had a great experience at Dr. Purnata's Dental & Cosmetic Care. Dr. Purnata is very gentle and patient. Got my digital smile designing done - absolutely amazing results! The clinic is spacious, modern and conveniently located in Koregaon Park. Definitely recommend!"
     }
   ];
 

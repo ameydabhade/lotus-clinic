@@ -8,28 +8,28 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What makes Lotus Dental Care different from other clinics?",
-      answer: "At Lotus Dental Care, we combine advanced technology with personalized care. Our clinic features state-of-the-art equipment, a highly sterilized environment, and a team led by Dr. Apurva Chaudhari who specializes in implantology and orthodontics. We're also one of the few clinics in Kalyan offering digital smile design, painless treatments, and complimentary consultation with digital scan worth 1500."
+      question: "What makes Dr. Purnata's Dental & Cosmetic Care different from other clinics?",
+      answer: "At Dr. Purnata's Dental & Cosmetic Care, we combine advanced technology with personalized care. Our clinics feature state-of-the-art equipment, a highly sterilized environment, and a team led by Dr. Purnata Manohar who specializes in cosmetic dentistry and digital smile designing. We're one of the few clinics in Pune offering comprehensive dental and cosmetic solutions, painless treatments, and complimentary consultation with digital scan worth ₹1500."
     },
     {
-      question: "What types of dental implants do you offer and how much do they cost?",
-      answer: "We offer single tooth implants, multiple teeth implants, and full mouth rehabilitation options. Our implants are available at competitive prices with flexible EMI options available. We use premium quality implant materials from trusted international brands, ensuring long-lasting results."
+      question: "What types of cosmetic and dental treatments do you offer?",
+      answer: "We offer a comprehensive range of treatments including Digital Smile Designing, Wedding Smile Makeovers, Dental Implants, Painless Root Canal Treatment, Full Mouth Rehabilitation, Teeth Whitening, and advanced cosmetic dentistry procedures. Our treatments use premium quality materials from trusted international brands, ensuring long-lasting and aesthetically pleasing results."
     },
     {
-      question: "How long does it take to get braces or clear aligners?",
-      answer: "The treatment duration varies based on your specific case. Typically, braces treatment takes 12-18 months, while clear aligners might take 6-15 months. During your consultation, Dr. Apurva will provide a detailed timeline based on your unique dental structure and requirements."
+      question: "How long does digital smile designing take and what's the process?",
+      answer: "Digital smile designing typically takes 2-3 appointments. First, we conduct a comprehensive digital scan and analysis of your current smile. Then we create a customized treatment plan showing you the expected results before starting. The actual treatment duration varies based on your specific case, ranging from a few weeks to a few months depending on the complexity."
     },
     {
       question: "Do you provide emergency dental services?",
-      answer: "Yes, we understand dental emergencies can happen anytime. Our clinic is open from 10:30 AM to 2:00 PM and 4:00 PM to 9:00 PM, and we prioritize emergency cases. You can reach us at 70202 10426 or 73046 14767 for immediate assistance."
+      answer: "Yes, we understand dental emergencies can happen anytime. Both our clinics are open from 10:30 AM to 2:00 PM and 4:00 PM to 9:00 PM, and we prioritize emergency cases. You can reach us at +91 77688 21234 (Koregaon Park) or +91 77589 12578 (Viman Nagar) for immediate assistance."
     },
     {
       question: "What payment options do you accept?",
-      answer: "We accept all major payment methods including cash, cards, and UPI. For extensive treatments like implants or orthodontics, we offer flexible EMI options with minimal documentation. We also provide special discounts for senior citizens and family packages."
+      answer: "We accept all major payment methods including cash, cards, and UPI. For extensive treatments like implants or cosmetic procedures, we offer flexible EMI options with minimal documentation and 0% interest for up to 12 months. We also provide special discounts for students and family packages."
     },
     {
-      question: "Is the clinic easily accessible?",
-      answer: "Yes, our clinic is conveniently located in Kalyan West with ample parking space. We're easily accessible by public transport and have a spacious, modern facility designed for patient comfort. You can find us using Google Maps or call us for directions."
+      question: "Where are your clinics located and how do I reach them?",
+      answer: "We have two convenient locations in Pune: Koregaon Park Branch at Ganga Cascade, N Main Rd, Koregaon Park, and Viman Nagar Branch at Shubh Gateway, Airport Road, opposite Symbiosis College. Both clinics are easily accessible by public transport with ample parking space. You can find us using Google Maps or call us for directions."
     }
   ];
 
@@ -45,7 +45,7 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-primary-600 md:text-lg">
-            Get answers to common questions about our dental services
+            Get answers to common questions about our dental & cosmetic services
           </p>
         </div>
 
