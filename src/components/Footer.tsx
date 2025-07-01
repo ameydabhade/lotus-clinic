@@ -63,7 +63,7 @@ export default function Footer() {
               <h4 className="font-bold text-sm md:text-base">Koregaon Park Branch</h4>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.9850094894487!2d73.88967937516963!3d18.53424408256726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1c5c5f9e8eb%3A0x1f5d4c2b8e5f9a8b!2sKoregaon%20Park%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1748290801057!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.771077760982!2d73.89576317514378!3d18.539244268603678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c105d7d4d42d%3A0xc2377309b118f5a5!2sDr.%20Purnata&#39;s%20Dental%20%26%20Cosmetic%20Care%2C%20Koregaon%20Park!5e0!3m2!1sen!2sin!4v1751350664335!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -81,7 +81,7 @@ export default function Footer() {
               <h4 className="font-bold text-sm md:text-base">Viman Nagar Branch</h4>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.2607914962835!2d73.9074905751698!3d18.56338048254163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c6ab7b5b8b8b%3A0x2b8d5f9e8e5c1f7a!2sViman%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1748290801057!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.964156586425!2d73.90266428036496!3d18.575654622461684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1146129368b%3A0x54bd0248d33570b8!2sDr.%20Purnata&#39;s%20Dental%20%26%20Cosmetic%20Care%20Viman%20Nagar%20Branch!5e0!3m2!1sen!2sin!4v1751350691306!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -96,7 +96,7 @@ export default function Footer() {
 
         <div className="text-center mt-6 pt-6 border-t border-gray-200">
           <p className="text-primary-600 text-sm">
-            © 2025 Dr. Purnata's Dental & Cosmetic Care. All rights reserved. | Recreating Smiles
+            © 2025 Dr. Purnata&apos;s Dental & Cosmetic Care. All rights reserved. | Recreating Smiles
           </p>
         </div>
       </div>

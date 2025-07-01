@@ -9,7 +9,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Recreating Smiles with<br />
-        <span className="bg-gradient-to-r from-primary-600 via-accent-500 to-secondary-500 bg-clip-text text-transparent">Dr. Purnata's Dental & Cosmetic Care</span>
+        <span className="bg-gradient-to-r from-primary-600 via-accent-500 to-secondary-500 bg-clip-text text-transparent">Dr. Purnata&apos;s Dental & Cosmetic Care</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -87,7 +87,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       <div className="bg-white/80 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-custom-lg md:max-w-4xl md:mx-auto border border-white/20">
         <div className="text-center mb-6">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Why Choose <span className="bg-gradient-to-r from-primary-600 via-accent-500 to-secondary-500 bg-clip-text text-transparent">Dr. Purnata's Dental & Cosmetic Care?</span>
+            Why Choose <span className="bg-gradient-to-r from-primary-600 via-accent-500 to-secondary-500 bg-clip-text text-transparent">Dr. Purnata&apos;s Dental & Cosmetic Care?</span>
           </h3>
           <p className="text-primary-700 md:text-lg font-medium">Experience Excellence in Dental & Cosmetic Care</p>
         </div>

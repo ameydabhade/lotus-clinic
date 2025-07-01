@@ -21,13 +21,13 @@ export default function Header({ onBookAppointment }: HeaderProps) {
       name: "Koregaon Park Branch",
       address: "Ganga Cascade, Flat 6, Between lane 5 and 6 Private Lane-5A, N Main Rd, Koregaon Park, Pune, Maharashtra 411001",
       phone: "+91 77688 21234",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.9850094894487!2d73.88967937516963!3d18.53424408256726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1c5c5f9e8eb%3A0x1f5d4c2b8e5f9a8b!2sKoregaon%20Park%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1748290801057!5m2!1sen!2sin"
+      mapUrl: "https://www.google.com/maps/place/Dr.+Purnata's+Dental+%26+Cosmetic+Care,+Koregaon+Park/@18.5392443,73.8957632,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c105d7d4d42d:0xc2377309b118f5a5!8m2!3d18.5392443!4d73.8983381!16s%2Fg%2F11y6l4bt3w"
     },
     viman: {
       name: "Viman Nagar Branch",
       address: "Shop A-104, Shubh Gateway, Airport road, Opposite Symbiosis College, Viman Nagar, Pune, Maharashtra 411014",
       phone: "+91 77589 12578",
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.2607914962835!2d73.9074905751698!3d18.56338048254163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c6ab7b5b8b8b%3A0x2b8d5f9e8e5c1f7a!2sViman%20Nagar%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1748290801057!5m2!1sen!2sin"
+      mapUrl: "https://www.google.com/maps/place/Dr.+Purnata's+Dental+%26+Cosmetic+Care+Viman+Nagar+Branch/@18.5756546,73.9026643,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c1146129368b:0x54bd0248d33570b8!8m2!3d18.5756546!4d73.9052392!16s%2Fg%2F11y6l4bt3w"
     }
   };
 

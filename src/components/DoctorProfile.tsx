@@ -64,14 +64,14 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <div className="prose max-w-none">
                 <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                   <p className="text-lg">
-                    Dr. Purnata Manohar leads Dr. Purnata's Dental & Cosmetic Care with a focus on advanced 
+                    Dr. Purnata Manohar leads Dr. Purnata&apos;s Dental & Cosmetic Care with a focus on advanced 
                     cosmetic dentistry and comprehensive dental solutions. Her 10+ years of specialized experience 
                     in digital smile designing and dental implants has helped thousands of patients achieve their dream smile.
                   </p>
                   
                   <p className="text-lg">
                     Renowned for her expertise in painless treatments and smile makeovers, Dr. Purnata has 
-                    established Pune's most trusted dental practice. Her commitment to using cutting-edge technology 
+                    established Pune&apos;s most trusted dental practice. Her commitment to using cutting-edge technology 
                     ensures predictable, aesthetically pleasing results with minimal discomfort.
                   </p>
                 </div>
