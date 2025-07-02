@@ -8,28 +8,32 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What makes Dr. Purnata's Dental & Cosmetic Care different from other clinics?",
-      answer: "At Dr. Purnata's Dental & Cosmetic Care, we combine advanced technology with personalized care. Our clinics feature state-of-the-art equipment, a highly sterilized environment, and a team led by Dr. Purnata Manohar who specializes in cosmetic dentistry and digital smile designing. We're one of the few clinics in Pune offering comprehensive dental and cosmetic solutions, painless treatments, and complimentary consultation with digital scan worth ₹1500."
+      question: "What is the dental implant procedure like?",
+      answer: "The procedure involves placing a titanium implant into the jawbone, allowing it to fuse with the bone over time. This serves as a stable foundation for a prosthetic tooth. The process includes a consultation, implant placement, a healing period, and finally, the attachment of a customized crown. At Dr. Purnata's clinic, we use advanced 3D planning and digital scanning for precise implant placement."
     },
     {
-      question: "What types of cosmetic and dental treatments do you offer?",
-      answer: "We offer a comprehensive range of treatments including Digital Smile Designing, Wedding Smile Makeovers, Dental Implants, Painless Root Canal Treatment, Full Mouth Rehabilitation, Teeth Whitening, and advanced cosmetic dentistry procedures. Our treatments use premium quality materials from trusted international brands, ensuring long-lasting and aesthetically pleasing results."
+      question: "Am I a suitable candidate for dental implants?",
+      answer: "Your overall health, bone density, and oral hygiene will be assessed to determine your candidacy for dental implants. Most adults with good general health and sufficient jawbone density are suitable candidates. During your free consultation, Dr. Purnata will conduct a thorough examination including digital scans to understand if implants are viable for you."
     },
     {
-      question: "How long does digital smile designing take and what's the process?",
-      answer: "Digital smile designing typically takes 2-3 appointments. First, we conduct a comprehensive digital scan and analysis of your current smile. Then we create a customized treatment plan showing you the expected results before starting. The actual treatment duration varies based on your specific case, ranging from a few weeks to a few months depending on the complexity."
+      question: "Is the dental implant procedure painful?",
+      answer: "No, the procedure is performed under local anesthesia, ensuring you won't feel pain during the surgery. Dr. Purnata specializes in painless treatments and uses advanced techniques to minimize discomfort. Any post-operative discomfort can typically be managed with prescribed pain medication and usually subsides within a few days."
     },
     {
-      question: "Do you provide emergency dental services?",
-      answer: "Yes, we understand dental emergencies can happen anytime. Both our clinics are open from 10:30 AM to 2:00 PM and 4:00 PM to 9:00 PM, and we prioritize emergency cases. You can reach us at +91 77688 21234 (Koregaon Park) or +91 77589 12578 (Viman Nagar) for immediate assistance."
+      question: "What is the expected recovery time, and how should I care for the implant afterward?",
+      answer: "Recovery times vary, but you can expect a healing period of 3-6 months for the implant to fully integrate with the bone. It's crucial to follow post-operative care instructions, including proper oral hygiene, a soft diet initially, and any prescribed medications. We provide detailed aftercare instructions and regular follow-up appointments to ensure successful healing."
     },
     {
-      question: "What payment options do you accept?",
-      answer: "We accept all major payment methods including cash, cards, and UPI. For extensive treatments like implants or cosmetic procedures, we offer flexible EMI options with minimal documentation and 0% interest for up to 12 months. We also provide special discounts for students and family packages."
+      question: "Are there any risks or complications associated with dental implants?",
+      answer: "Like any surgical procedure, there are potential risks, such as infection or implant failure. However, these occurrences are rare (success rate is over 95%). At Dr. Purnata's clinic, we follow strict sterilization protocols and use premium quality implants to minimize potential complications. We will discuss all risks during your consultation."
     },
     {
-      question: "Where are your clinics located and how do I reach them?",
-      answer: "We have two convenient locations in Pune: Koregaon Park Branch at Ganga Cascade, N Main Rd, Koregaon Park, and Viman Nagar Branch at Shubh Gateway, Airport Road, opposite Symbiosis College. Both clinics are easily accessible by public transport with ample parking space. You can find us using Google Maps or call us for directions."
+      question: "What payment options do you offer for dental implants?",
+      answer: "We accept all major payment methods including cash, cards, and UPI. For dental implant treatments, we offer flexible EMI options with minimal documentation and 0% interest for up to 12 months. We also provide special package deals for multiple implants and family treatments to make implants more affordable."
+    },
+    {
+      question: "How long do dental implants last and what's the success rate?",
+      answer: "Dental implants can last a lifetime with proper care and maintenance. Our success rate is over 95%, and we use premium international-grade titanium implants. The key to long-lasting implants is good oral hygiene, regular dental check-ups, and following our aftercare instructions. Most of our patients have had their implants for 10+ years without any issues."
     }
   ];
 
@@ -42,10 +46,10 @@ export default function FAQSection() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">
-            Frequently Asked Questions
+            Frequently Asked Questions about Dental Implants
           </h2>
           <p className="text-primary-600 md:text-lg">
-            Get answers to common questions about our dental & cosmetic services
+            Get answers to common questions about dental implant procedures and care
           </p>
         </div>
 

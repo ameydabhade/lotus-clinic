@@ -189,21 +189,21 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Treatment Interest</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Your Dental Concern</label>
               <select 
                 required 
                 className="w-full p-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all"
                 value={treatmentInterest}
                 onChange={(e) => setTreatmentInterest(e.target.value)}
               >
-                <option value="">Select Treatment</option>
-                <option value="smile-designing">Digital Smile Designing</option>
-                <option value="cosmetic">Cosmetic Dentistry</option>
-                <option value="implants">Dental Implants</option>
-                <option value="root-canal">Root Canal Treatment</option>
-                <option value="whitening">Teeth Whitening</option>
-                <option value="general">General Dentistry</option>
-                <option value="other">Other Treatment</option>
+                <option value="">Select Your Dental Concern</option>
+                <option value="single-tooth">Single Tooth Replacement</option>
+                <option value="multiple-teeth">Multiple Teeth Replacement</option>
+                <option value="full-mouth">Full Mouth Reconstruction</option>
+                <option value="implant-dentures">Implant-Supported Dentures</option>
+                <option value="all-on-4">All-on-4 / All-on-6 Treatment</option>
+                <option value="bone-grafting">Bone Grafting for Implants</option>
+                <option value="implant-consultation">General Implant Consultation</option>
               </select>
             </div>
 
@@ -238,8 +238,23 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
                   onChange={(e) => setPreferredTime(e.target.value)}
                 >
                   <option value="">Select Time Slot</option>
-                  <option value="morning">Morning (10:30 AM - 2:00 PM)</option>
-                  <option value="evening">Evening (4:00 PM - 9:00 PM)</option>
+                  <option value="10:30 AM">10:30 AM</option>
+                  <option value="11:00 AM">11:00 AM</option>
+                  <option value="11:30 AM">11:30 AM</option>
+                  <option value="12:00 PM">12:00 PM</option>
+                  <option value="12:30 PM">12:30 PM</option>
+                  <option value="1:00 PM">1:00 PM</option>
+                  <option value="1:30 PM">1:30 PM</option>
+                  <option value="4:00 PM">4:00 PM</option>
+                  <option value="4:30 PM">4:30 PM</option>
+                  <option value="5:00 PM">5:00 PM</option>
+                  <option value="5:30 PM">5:30 PM</option>
+                  <option value="6:00 PM">6:00 PM</option>
+                  <option value="6:30 PM">6:30 PM</option>
+                  <option value="7:00 PM">7:00 PM</option>
+                  <option value="7:30 PM">7:30 PM</option>
+                  <option value="8:00 PM">8:00 PM</option>
+                  <option value="8:30 PM">8:30 PM</option>
                 </select>
               </div>
             </div>

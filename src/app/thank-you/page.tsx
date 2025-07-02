@@ -66,21 +66,66 @@ export default function ThankYou() {
             </div>
           </div>
 
-          {/* Next Steps */}
-          <div className="bg-gray-50 rounded-xl p-6 mb-8">
-            <h4 className="text-lg font-semibold text-gray-900 mb-4">What happens next?</h4>
-            <ol className="space-y-4">
+          {/* Important Instructions */}
+          <div className="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-400 rounded-xl p-6 mb-8">
+            <h4 className="text-xl font-bold text-red-800 mb-4">📧 Check Your Email for Appointment Confirmation</h4>
+            <p className="text-red-700 mb-4">Your dental implant consultation appointment is scheduled with Dr. Purnata's team. Please check your email for confirmation details.</p>
+            
+            <h5 className="text-lg font-bold text-gray-900 mb-4">Here's what you need to do before your consultation:</h5>
+            
+            <div className="space-y-6">
+              <div className="bg-white p-4 rounded-lg border-l-4 border-primary-500">
+                <h6 className="font-bold text-primary-800 mb-2">1️⃣ Save the Date & Time (Really Important!)</h6>
+                <p className="text-gray-700 text-sm">
+                  <em>Save the appointment details by checking your email. We will dedicate a full hour towards helping you and would appreciate that you show up on time.</em>
+                </p>
+              </div>
+
+              <div className="bg-white p-4 rounded-lg border-l-4 border-blue-500">
+                <h6 className="font-bold text-blue-800 mb-2">2️⃣ Bring Your Medical Records & Dental History</h6>
+                <p className="text-gray-700 text-sm mb-2">
+                  <em>Don't forget to bring your past test results and medical reports with you. This includes any medical conditions you have been diagnosed with, past and present.</em>
+                </p>
+                <ul className="text-gray-600 text-sm space-y-1 ml-4">
+                  <li>• Previous dental X-rays or scans</li>
+                  <li>• Any dental treatment records</li>
+                  <li>• List of current medications</li>
+                  <li>• Medical conditions (diabetes, blood pressure, etc.)</li>
+                  <li>• Insurance information (if applicable)</li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-4 rounded-lg border-l-4 border-green-500">
+                <h6 className="font-bold text-green-800 mb-2">3️⃣ Be On Time & Don't Be Late</h6>
+                <p className="text-gray-700 text-sm mb-2">
+                  <em>Dentists are generally very busy people and some see dozens of patients per day. Any delay will cause the dentist to fall behind with their schedule and may cause inconvenience to other people.</em>
+                </p>
+                <p className="text-gray-600 text-sm">
+                  <strong>Please arrive 10-15 minutes early</strong> for check-in. Check for traffic and other delays beforehand.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* What to Expect */}
+          <div className="bg-primary-50 rounded-xl p-6 mb-8">
+            <h4 className="text-lg font-semibold text-primary-900 mb-4">What to Expect During Your Visit:</h4>
+            <ol className="space-y-3">
               <li className="flex gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold">1</span>
-                <span className="text-gray-600">Our team will review your appointment request</span>
+                <span className="flex-shrink-0 w-6 h-6 bg-primary-200 text-primary-800 rounded-full flex items-center justify-center font-semibold text-sm">1</span>
+                <span className="text-primary-800"><strong>Comprehensive Oral Examination</strong> - Complete assessment of your dental health</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold">2</span>
-                <span className="text-gray-600">We&apos;ll call you within 2 hours to confirm your appointment</span>
+                <span className="flex-shrink-0 w-6 h-6 bg-primary-200 text-primary-800 rounded-full flex items-center justify-center font-semibold text-sm">2</span>
+                <span className="text-primary-800"><strong>Digital Scan & X-rays</strong> - Advanced imaging for precise implant planning</span>
               </li>
               <li className="flex gap-3">
-                <span className="flex-shrink-0 w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center font-semibold">3</span>
-                <span className="text-gray-600">You&apos;ll receive an email confirmation with appointment details</span>
+                <span className="flex-shrink-0 w-6 h-6 bg-primary-200 text-primary-800 rounded-full flex items-center justify-center font-semibold text-sm">3</span>
+                <span className="text-primary-800"><strong>Treatment Plan Discussion</strong> - Personalized implant options and cost breakdown</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="flex-shrink-0 w-6 h-6 bg-primary-200 text-primary-800 rounded-full flex items-center justify-center font-semibold text-sm">4</span>
+                <span className="text-primary-800"><strong>Q&A Session</strong> - All your questions answered by Dr. Purnata</span>
               </li>
             </ol>
           </div>

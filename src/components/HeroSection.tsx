@@ -13,14 +13,18 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
-        <div className="relative rounded-2xl h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-custom-lg">
-          <Image 
-            src="/images/hero.png" 
-            alt="Dr. Purnata's Dental Care Showcase" 
-            fill
-            className="object-cover"
-            priority
-          />
+        <div className="relative rounded-2xl h-80 md:h-[600px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-custom-lg">
+          <video 
+            className="w-full h-full object-cover rounded-2xl"
+            controls
+            muted
+            autoPlay
+            loop
+            poster="/images/transformations/vsl.png"
+          >
+            <source src="/images/transformations/vsl.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
 
         {/* Special Offer Section */}

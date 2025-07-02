@@ -8,21 +8,21 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
   const testimonials = [
     {
       id: 1,
-      title: "Smile Design Transformation",
-      description: "Complete smile makeover with advanced dental aesthetics",
-      image: "/images/results/11.png"
+      title: "Basal Implants Transformation",
+      description: "Complete full mouth reconstruction using basal implant technology",
+      image: "/images/results/1.png"
     },
     {
       id: 2,
-      title: "Professional Smile Makeover",
-      description: "Comprehensive transformation by Dr. Purnata Manohar",
-      image: "/images/results/22.png"
+      title: "Single Tooth Implant",
+      description: "Precise single tooth replacement with natural-looking results",
+      image: "/images/results/2.png"
     },
     {
       id: 3,
-      title: "Full Mouth Rehabilitation",
-      description: "Complete dental restoration with implants and prosthetics",
-      image: "/images/results/33.png"
+      title: "Advanced Basal Implant Case",
+      description: "Full mouth rehabilitation with immediate loading basal implants",
+      image: "/images/results/3.png"
     }
   ];
 
@@ -30,10 +30,10 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
     <section className="bg-gradient-to-br from-primary-50 via-accent-50 to-secondary-50 p-4 md:p-8 lg:p-12">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-xl md:text-3xl font-bold text-center mb-2 bg-gradient-to-r from-primary-700 via-accent-600 to-secondary-600 bg-clip-text text-transparent">
-          <u>Transforming Smiles</u>
+          <u>Implant Transformations by Dr. Purnata</u>
         </h2>
         <p className="text-center text-primary-600 font-bold mb-6 md:text-lg">
-          Real results from our satisfied patients
+          Actual before & after cases from our clinic
         </p>
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -55,8 +55,8 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         </div>
 
         <p className="text-center my-6 md:text-lg max-w-3xl mx-auto text-gray-700">
-          Watch our patient transformation stories<br />
-          See how our dental treatments can change your life!
+          These are actual cases treated by Dr. Purnata Manohar<br />
+          Watch our patient testimonials and see how our advanced implant techniques can transform your smile!
         </p>
 
         <div className="md:grid md:grid-cols-2 gap-6">
@@ -68,7 +68,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                     className="absolute top-0 left-0 w-full h-full object-cover rounded-t-2xl" 
                     controls
                     muted
-                    poster="/images/transformations/1.png"
+                    poster="/images/transformations/vsl.png"
                   >
                     <source src="/images/transformations/1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
@@ -76,8 +76,8 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="font-semibold text-lg mb-1 text-gray-900">Dental Implantation</h3>
-                <p className="text-gray-600 text-sm">Complete implant procedure and transformation journey</p>
+                <h3 className="font-semibold text-lg mb-1 text-gray-900">Patient Testimonial</h3>
+                <p className="text-gray-600 text-sm">Patient sharing their dental implant transformation experience</p>
               </div>
             </div>
             <button 
@@ -108,19 +108,19 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                 </div>
               </div>
               <div className="p-4">
-                <h3 className="font-semibold text-lg mb-1 text-gray-900">Root Canal Procedure</h3>
-                <p className="text-gray-600 text-sm">Advanced root canal treatment and restoration process</p>
+                <h3 className="font-semibold text-lg mb-1 text-gray-900">Patient Success Story</h3>
+                <p className="text-gray-600 text-sm">Another satisfied patient shares their implant journey and results</p>
               </div>
             </div>
             <button 
               onClick={onBookAppointment} 
               className="bg-gradient-to-r from-accent-500 to-accent-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-accent-600 hover:to-accent-700 transition-all duration-300 transform hover:scale-105 shadow-custom flex items-center justify-center gap-2 group"
             >
-              Book Your Root Canal Consultation
+              Book Your Implant Consultation
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="text-center text-accent-600 font-medium">
-              Painless Treatment with Advanced Technology
+              Free Consultation + Digital Implant Planning
             </p>
           </div>
         </div>
