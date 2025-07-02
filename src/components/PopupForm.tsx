@@ -39,7 +39,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
     setIsSubmitting(true);
     setSubmitMessage('');
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbycfJIBKDeyDHmYOTpaY9eSWOD8NJz4Fb5MBR9YA8Apt6hFc9LA0cIt0bYaImRrjQ9JnA/exec'; // Placeholder
+    const scriptURL = 'YOUR_GOOGLE_SCRIPT_URL_HERE'; // Replace with your Google Apps Script URL
     
     // Constructing the query parameters for doGet
     const params = new URLSearchParams({

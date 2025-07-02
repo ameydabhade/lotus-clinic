@@ -69,9 +69,9 @@ export default function ThankYou() {
           {/* Important Instructions */}
           <div className="bg-gradient-to-r from-red-50 to-orange-50 border-l-4 border-red-400 rounded-xl p-6 mb-8">
             <h4 className="text-xl font-bold text-red-800 mb-4">📧 Check Your Email for Appointment Confirmation</h4>
-            <p className="text-red-700 mb-4">Your dental implant consultation appointment is scheduled with Dr. Purnata's team. Please check your email for confirmation details.</p>
+            <p className="text-red-700 mb-4">Your dental implant consultation appointment is scheduled with Dr. Purnata&apos;s team. Please check your email for confirmation details.</p>
             
-            <h5 className="text-lg font-bold text-gray-900 mb-4">Here's what you need to do before your consultation:</h5>
+            <h5 className="text-lg font-bold text-gray-900 mb-4">Here&apos;s what you need to do before your consultation:</h5>
             
             <div className="space-y-6">
               <div className="bg-white p-4 rounded-lg border-l-4 border-primary-500">
@@ -84,7 +84,7 @@ export default function ThankYou() {
               <div className="bg-white p-4 rounded-lg border-l-4 border-blue-500">
                 <h6 className="font-bold text-blue-800 mb-2">2️⃣ Bring Your Medical Records & Dental History</h6>
                 <p className="text-gray-700 text-sm mb-2">
-                  <em>Don't forget to bring your past test results and medical reports with you. This includes any medical conditions you have been diagnosed with, past and present.</em>
+                  <em>Don&apos;t forget to bring your past test results and medical reports with you. This includes any medical conditions you have been diagnosed with, past and present.</em>
                 </p>
                 <ul className="text-gray-600 text-sm space-y-1 ml-4">
                   <li>• Previous dental X-rays or scans</li>
@@ -96,7 +96,7 @@ export default function ThankYou() {
               </div>
 
               <div className="bg-white p-4 rounded-lg border-l-4 border-green-500">
-                <h6 className="font-bold text-green-800 mb-2">3️⃣ Be On Time & Don't Be Late</h6>
+                <h6 className="font-bold text-green-800 mb-2">3️⃣ Be On Time & Don&apos;t Be Late</h6>
                 <p className="text-gray-700 text-sm mb-2">
                   <em>Dentists are generally very busy people and some see dozens of patients per day. Any delay will cause the dentist to fall behind with their schedule and may cause inconvenience to other people.</em>
                 </p>
