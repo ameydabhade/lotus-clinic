@@ -79,11 +79,6 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
-  const openPopup = () => {
-    setShowPopup(true);
-    document.body.style.overflow = 'hidden';
-  };
-
   const closePopup = () => {
     setShowPopup(false);
     document.body.style.overflow = '';
