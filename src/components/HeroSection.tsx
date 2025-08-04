@@ -48,15 +48,15 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <ul className="text-left mb-4 space-y-2">
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
-                <span className="text-sm">Free Consultation + Digital Scan</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-yellow-300">✓</span>
                 <span className="text-sm">Easy EMI Options Available</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-yellow-300">✓</span>
                 <span className="text-sm">International Quality Materials</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-yellow-300">✓</span>
+                <span className="text-sm">Expert Dental Care</span>
               </li>
             </ul>
 
@@ -73,7 +73,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
       <div className="flex flex-col gap-3 mb-8 md:flex-row md:justify-center">
         <button onClick={onBookAppointment} className="bg-purple-500 text-white py-4 px-8 rounded-lg font-bold text-lg hover:bg-purple-600 transition-colors md:min-w-[240px]">
-          📞 Book Free Consultation + Digital Scan
+          📞 Book Your Appointment
         </button>
         <a 
           href="tel:+917020210426" 
@@ -193,7 +193,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
             <span className="group-hover:translate-x-1 transition-transform">➤</span>
           </button>
           <div className="mt-3 space-y-1">
-            <p className="text-primary-600 font-bold">Book Now & Get Free Consultation + Digital Scan</p>
+            <p className="text-primary-600 font-bold">Book Now & Get Premium Dental Care</p>
             <p className="text-sm text-gray-500">Limited Time Offer</p>
           </div>
         </div>

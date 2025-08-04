@@ -89,6 +89,11 @@ export default function Home() {
     document.body.style.overflow = '';
   };
 
+  // Function to redirect to GMB profile
+  const redirectToGMB = () => {
+    window.open('https://share.google/B5p7cIVkW6ppurNto', '_blank');
+  };
+
   return (
     <div style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
       {/* Animated Background */}
@@ -100,21 +105,21 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="relative z-10">
-        <Header onBookAppointment={openPopup} />
-        <HeroSection onBookAppointment={openPopup} />
+        <Header onBookAppointment={redirectToGMB} />
+        <HeroSection onBookAppointment={redirectToGMB} />
       
         <ImplantTypes />
-        <TransformingSmiles onBookAppointment={openPopup} />
-        <CTABox onBookAppointment={openPopup} />
+        <TransformingSmiles onBookAppointment={redirectToGMB} />
+        <CTABox onBookAppointment={redirectToGMB} />
         <GoogleReviews />
-        <DoctorProfile onBookAppointment={openPopup} />
-        <ClinicPhotos onBookAppointment={openPopup} />
+        <DoctorProfile onBookAppointment={redirectToGMB} />
+        <ClinicPhotos onBookAppointment={redirectToGMB} />
         <FAQSection />
         <Footer />
       </div>
 
       {/* Interactive Components */}
-      <StickyCTA isVisible={showStickyCta} onBookAppointment={openPopup} />
+      <StickyCTA isVisible={showStickyCta} onBookAppointment={redirectToGMB} />
       <PopupForm 
         isOpen={showPopup} 
         onClose={closePopup} 

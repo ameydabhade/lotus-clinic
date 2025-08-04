@@ -135,7 +135,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
             <p className="mt-3 text-primary-400 font-medium">
-              Free Consultation + 3D Implant Planning Worth ₹1500
+              Premium Implant Care with 3D Treatment Planning
             </p>
           </div>
         </div>

@@ -87,7 +87,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-primary-400 font-medium">
-            Free Consultation + 3D Implant Planning
+            Premium Implant Care with 3D Treatment Planning
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
             onClick={onBookAppointment} 
             className="bg-gradient-to-r from-purple-500 to-purple-600 text-white py-4 px-6 rounded-xl font-bold w-full mb-2 hover:from-purple-600 hover:to-purple-700 transition-all transform hover:scale-[1.02] shadow-md hover:shadow-lg flex items-center justify-center gap-2 group"
           >
-            Book Your Free Consultation
+            Book Your Appointment
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </button>
           <p className="text-center text-purple-600 font-medium">
