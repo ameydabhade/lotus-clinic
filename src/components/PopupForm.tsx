@@ -119,7 +119,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         {/* Header Section */}
         <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white p-6 rounded-t-2xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Transform Your Smile Today!</h2>
-          <p className="text-primary-100">Book your consultation with Dr. Apurva Chaudhari</p>
+          <p className="text-primary-100">Book your consultation with Dr. Apurva Chaudhari - Only ₹199</p>
           
           {/* Countdown Timer */}
           <div className="mt-4 flex items-center gap-4 bg-white/10 rounded-xl p-4">
@@ -141,9 +141,9 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
           {/* Offer Cards */}
           <div className="grid md:grid-cols-2 gap-4 mb-6">
             <div className="bg-purple-50 border-l-4 border-purple-400 p-4 rounded-lg">
-              <h3 className="font-bold text-purple-800 mb-1">Free Consultation + Digital Scan</h3>
+              <h3 className="font-bold text-purple-800 mb-1">Consultation + Digital Scan</h3>
               <p className="text-sm text-purple-600">
-                Worth <span className="font-bold text-lg">₹1,500</span>
+                Only <span className="font-bold text-lg">₹199</span> <span className="line-through text-gray-500">₹1,500</span>
               </p>
             </div>
  
